@@ -1,0 +1,4429 @@
+
+... FETCHING ... 00a00513
+FETCH: Instruction  00a00513 fetched from address 0x0%x0:0%x1:0%x2:2147483632%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:1%pc:4%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... DECODING ... 00a00513
+DECODE: Operation is addi first operand R0 Immediate 10 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 008000ef
+FETCH: Instruction  008000ef fetched from address 0x4%x0:0%x1:0%x2:2147483632%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:2%pc:8%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... EXECUTING ... 00a00513
+First PC iS 0
+EXECUTE: Alu Operation : addi  Operation Result : 10
+EXECUTE: Branch is not taken
+Second PC iS 4
+
+... DECODING ... 008000ef
+DECODE: Operation is jal Destination Register is R1 Immediate 8
+func3 : 0 func7 : 0
+
+... FETCHING ... 04000063
+FETCH: Instruction  04000063 fetched from address 0x8%x0:0%x1:0%x2:2147483632%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:3%pc:12%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... ACCESSING MEMORY ... 00a00513
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 008000ef
+First PC iS 4
+EXECUTE: Alu Operation : jal  Operation Result : 8
+EXECUTE: Branch is taken
+Second PC iS 12
+
+... DECODING ... 04000063
+DECODE: Operation is beq first operand R0 Second operand R0 Immediate 64
+func3 : 0 func7 : 2
+
+... FETCHING ... ff810113
+FETCH: Instruction  ff810113 fetched from address 0x12%x0:0%x1:0%x2:2147483632%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:4%pc:12%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... 00a00513
+WRITEBACK: writing 10 to Register R10
+
+... ACCESSING MEMORY ... 008000ef
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 04000063
+
+... STALL ... DECODE ... ff810113
+
+... FETCHING ... ff810113
+FETCH: Instruction  ff810113 fetched from address 0x12%x0:0%x1:0%x2:2147483632%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:5%pc:16%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 008000ef
+WRITEBACK: writing 8 to Register R1
+
+
+... STALL ... MEMORY ... 04000063
+
+... STALL ... EXECUTE ... ff810113
+
+... DECODING ... ff810113
+DECODE: Operation is addi first operand R2 Immediate -8 destination register R2
+func3 : 0 func7 : 127
+
+... FETCHING ... 00112223
+FETCH: Instruction  00112223 fetched from address 0x16%x0:0%x1:8%x2:2147483632%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:6%pc:20%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 04000063
+
+
+... STALL ... MEMORY ... ff810113
+... EXECUTING ... ff810113
+First PC iS 12
+EXECUTE: Alu Operation : addi  Operation Result : 2147483624
+EXECUTE: Branch is not taken
+Second PC iS 16
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:8%x2:2147483632%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:7%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+... ACCESSING MEMORY ... ff810113
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:8%x2:2147483632%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:8%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... ff810113
+WRITEBACK: writing 2147483624 to Register R2
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:8%x2:2147483624%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:9%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 00112223
+DECODE: Operation is store_word first operand R2 Second operand R1 Immediate 4
+func3 : 2 func7 : 0
+
+... FETCHING ... 00a12023
+FETCH: Instruction  00a12023 fetched from address 0x20%x0:0%x1:8%x2:2147483624%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:10%pc:24%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+
+... STALL ... MEMORY ... ff810113
+... EXECUTING ... 00112223
+First PC iS 16
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483628
+EXECUTE: Branch is not taken
+Second PC iS 20
+
+... DECODING ... 00a12023
+DECODE: Operation is store_word first operand R2 Second operand R10 Immediate 0
+func3 : 2 func7 : 0
+
+... FETCHING ... fff50293
+FETCH: Instruction  fff50293 fetched from address 0x24%x0:0%x1:8%x2:2147483624%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:11%pc:28%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+... ACCESSING MEMORY ... 00112223
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 8
+
+... EXECUTING ... 00a12023
+First PC iS 20
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483624
+EXECUTE: Branch is not taken
+Second PC iS 24
+
+... DECODING ... fff50293
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R5
+func3 : 0 func7 : 127
+
+... FETCHING ... 0002d663
+FETCH: Instruction  0002d663 fetched from address 0x28%x0:0%x1:8%x2:2147483624%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:12%pc:32%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00112223
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... 00a12023
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 10
+
+... EXECUTING ... fff50293
+First PC iS 24
+EXECUTE: Alu Operation : addi  Operation Result : 9
+EXECUTE: Branch is not taken
+Second PC iS 28
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:8%x2:2147483624%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:13%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00a12023
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... fff50293
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:8%x2:2147483624%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:14%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fff50293
+WRITEBACK: writing 9 to Register R5
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:8%x2:2147483624%x3:0%x4:0%x5:9%x6:0%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:15%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 0002d663
+DECODE: Operation is bge first operand R5 Second operand R0 Immediate 12
+func3 : 5 func7 : 0
+
+... FETCHING ... 00000513
+FETCH: Instruction  00000513 fetched from address 0x32%x0:0%x1:8%x2:2147483624%x3:0%x4:0%x5:9%x6:0%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:16%pc:36%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... fff50293
+
+
+... STALL ... MEMORY ... fff50293
+... EXECUTING ... 0002d663
+op1 is 9 op2 is 0
+First PC iS 28
+EXECUTE: Alu Operation : bge  Operation Result : 9
+EXECUTE: Branch is taken
+Second PC iS 40
+
+... DECODING ... 00000513
+DECODE: Operation is addi first operand R0 Immediate 0 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x36%x0:0%x1:8%x2:2147483624%x3:0%x4:0%x5:9%x6:0%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:17%pc:40%RAW_dep:0%JAL_dep:0%CNTR_dep:1%
+$
+... STALL ... WRITE back ... fff50293
+
+... ACCESSING MEMORY ... 0002d663
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000513
+
+... STALL ... DECODE ... 00008067
+
+... FETCHING ... fff50513
+FETCH: Instruction  fff50513 fetched from address 0x40%x0:0%x1:8%x2:2147483624%x3:0%x4:0%x5:9%x6:0%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:18%pc:44%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 0002d663
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000513
+
+... STALL ... EXECUTE ... 00008067
+
+... DECODING ... fff50513
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R10
+func3 : 0 func7 : 127
+
+... FETCHING ... fe1ff0ef
+FETCH: Instruction  fe1ff0ef fetched from address 0x44%x0:0%x1:8%x2:2147483624%x3:0%x4:0%x5:9%x6:0%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:19%pc:48%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000513
+
+
+... STALL ... MEMORY ... 00008067
+... EXECUTING ... fff50513
+First PC iS 40
+EXECUTE: Alu Operation : addi  Operation Result : 9
+EXECUTE: Branch is not taken
+Second PC iS 44
+
+... DECODING ... fe1ff0ef
+DECODE: Operation is jal Destination Register is R1 Immediate -32
+func3 : 7 func7 : 127
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:8%x2:2147483624%x3:0%x4:0%x5:9%x6:0%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:20%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00008067
+
+... ACCESSING MEMORY ... fff50513
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... fe1ff0ef
+First PC iS 44
+EXECUTE: Alu Operation : jal  Operation Result : 48
+EXECUTE: Branch is taken
+Second PC iS 12
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:8%x2:2147483624%x3:0%x4:0%x5:9%x6:0%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:21%pc:12%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... fff50513
+WRITEBACK: writing 9 to Register R10
+
+... ACCESSING MEMORY ... fe1ff0ef
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00050313
+
+... STALL ... DECODE ... 00012503
+
+... FETCHING ... ff810113
+FETCH: Instruction  ff810113 fetched from address 0x12%x0:0%x1:8%x2:2147483624%x3:0%x4:0%x5:9%x6:0%x7:0%x8:0%x9:0%x10:9%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:22%pc:16%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fe1ff0ef
+WRITEBACK: writing 48 to Register R1
+
+
+... STALL ... MEMORY ... 00050313
+
+... STALL ... EXECUTE ... 00012503
+
+... DECODING ... ff810113
+DECODE: Operation is addi first operand R2 Immediate -8 destination register R2
+func3 : 0 func7 : 127
+
+... FETCHING ... 00112223
+FETCH: Instruction  00112223 fetched from address 0x16%x0:0%x1:48%x2:2147483624%x3:0%x4:0%x5:9%x6:0%x7:0%x8:0%x9:0%x10:9%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:23%pc:20%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00050313
+
+
+... STALL ... MEMORY ... 00012503
+... EXECUTING ... ff810113
+First PC iS 12
+EXECUTE: Alu Operation : addi  Operation Result : 2147483616
+EXECUTE: Branch is not taken
+Second PC iS 16
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483624%x3:0%x4:0%x5:9%x6:0%x7:0%x8:0%x9:0%x10:9%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:24%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00012503
+
+... ACCESSING MEMORY ... ff810113
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483624%x3:0%x4:0%x5:9%x6:0%x7:0%x8:0%x9:0%x10:9%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:25%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... ff810113
+WRITEBACK: writing 2147483616 to Register R2
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:9%x6:0%x7:0%x8:0%x9:0%x10:9%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:26%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 00112223
+DECODE: Operation is store_word first operand R2 Second operand R1 Immediate 4
+func3 : 2 func7 : 0
+
+... FETCHING ... 00a12023
+FETCH: Instruction  00a12023 fetched from address 0x20%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:9%x6:0%x7:0%x8:0%x9:0%x10:9%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:27%pc:24%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+
+... STALL ... MEMORY ... ff810113
+... EXECUTING ... 00112223
+First PC iS 16
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483620
+EXECUTE: Branch is not taken
+Second PC iS 20
+
+... DECODING ... 00a12023
+DECODE: Operation is store_word first operand R2 Second operand R10 Immediate 0
+func3 : 2 func7 : 0
+
+... FETCHING ... fff50293
+FETCH: Instruction  fff50293 fetched from address 0x24%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:9%x6:0%x7:0%x8:0%x9:0%x10:9%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:28%pc:28%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+... ACCESSING MEMORY ... 00112223
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 48
+
+... EXECUTING ... 00a12023
+First PC iS 20
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483616
+EXECUTE: Branch is not taken
+Second PC iS 24
+
+... DECODING ... fff50293
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R5
+func3 : 0 func7 : 127
+
+... FETCHING ... 0002d663
+FETCH: Instruction  0002d663 fetched from address 0x28%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:9%x6:0%x7:0%x8:0%x9:0%x10:9%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:29%pc:32%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00112223
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... 00a12023
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 9
+
+... EXECUTING ... fff50293
+First PC iS 24
+EXECUTE: Alu Operation : addi  Operation Result : 8
+EXECUTE: Branch is not taken
+Second PC iS 28
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:9%x6:0%x7:0%x8:0%x9:0%x10:9%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:30%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00a12023
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... fff50293
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:9%x6:0%x7:0%x8:0%x9:0%x10:9%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:31%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fff50293
+WRITEBACK: writing 8 to Register R5
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:8%x6:0%x7:0%x8:0%x9:0%x10:9%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:32%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 0002d663
+DECODE: Operation is bge first operand R5 Second operand R0 Immediate 12
+func3 : 5 func7 : 0
+
+... FETCHING ... 00000513
+FETCH: Instruction  00000513 fetched from address 0x32%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:8%x6:0%x7:0%x8:0%x9:0%x10:9%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:33%pc:36%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... fff50293
+
+
+... STALL ... MEMORY ... fff50293
+... EXECUTING ... 0002d663
+op1 is 8 op2 is 0
+First PC iS 28
+EXECUTE: Alu Operation : bge  Operation Result : 8
+EXECUTE: Branch is taken
+Second PC iS 40
+
+... DECODING ... 00000513
+DECODE: Operation is addi first operand R0 Immediate 0 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x36%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:8%x6:0%x7:0%x8:0%x9:0%x10:9%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:34%pc:40%RAW_dep:0%JAL_dep:0%CNTR_dep:1%
+$
+... STALL ... WRITE back ... fff50293
+
+... ACCESSING MEMORY ... 0002d663
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000513
+
+... STALL ... DECODE ... 00008067
+
+... FETCHING ... fff50513
+FETCH: Instruction  fff50513 fetched from address 0x40%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:8%x6:0%x7:0%x8:0%x9:0%x10:9%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:35%pc:44%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 0002d663
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000513
+
+... STALL ... EXECUTE ... 00008067
+
+... DECODING ... fff50513
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R10
+func3 : 0 func7 : 127
+
+... FETCHING ... fe1ff0ef
+FETCH: Instruction  fe1ff0ef fetched from address 0x44%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:8%x6:0%x7:0%x8:0%x9:0%x10:9%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:36%pc:48%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000513
+
+
+... STALL ... MEMORY ... 00008067
+... EXECUTING ... fff50513
+First PC iS 40
+EXECUTE: Alu Operation : addi  Operation Result : 8
+EXECUTE: Branch is not taken
+Second PC iS 44
+
+... DECODING ... fe1ff0ef
+DECODE: Operation is jal Destination Register is R1 Immediate -32
+func3 : 7 func7 : 127
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:8%x6:0%x7:0%x8:0%x9:0%x10:9%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:37%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00008067
+
+... ACCESSING MEMORY ... fff50513
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... fe1ff0ef
+First PC iS 44
+EXECUTE: Alu Operation : jal  Operation Result : 48
+EXECUTE: Branch is taken
+Second PC iS 12
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:8%x6:0%x7:0%x8:0%x9:0%x10:9%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:38%pc:12%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... fff50513
+WRITEBACK: writing 8 to Register R10
+
+... ACCESSING MEMORY ... fe1ff0ef
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00050313
+
+... STALL ... DECODE ... 00012503
+
+... FETCHING ... ff810113
+FETCH: Instruction  ff810113 fetched from address 0x12%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:8%x6:0%x7:0%x8:0%x9:0%x10:8%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:39%pc:16%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fe1ff0ef
+WRITEBACK: writing 48 to Register R1
+
+
+... STALL ... MEMORY ... 00050313
+
+... STALL ... EXECUTE ... 00012503
+
+... DECODING ... ff810113
+DECODE: Operation is addi first operand R2 Immediate -8 destination register R2
+func3 : 0 func7 : 127
+
+... FETCHING ... 00112223
+FETCH: Instruction  00112223 fetched from address 0x16%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:8%x6:0%x7:0%x8:0%x9:0%x10:8%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:40%pc:20%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00050313
+
+
+... STALL ... MEMORY ... 00012503
+... EXECUTING ... ff810113
+First PC iS 12
+EXECUTE: Alu Operation : addi  Operation Result : 2147483608
+EXECUTE: Branch is not taken
+Second PC iS 16
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:8%x6:0%x7:0%x8:0%x9:0%x10:8%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:41%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00012503
+
+... ACCESSING MEMORY ... ff810113
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:8%x6:0%x7:0%x8:0%x9:0%x10:8%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:42%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... ff810113
+WRITEBACK: writing 2147483608 to Register R2
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:8%x6:0%x7:0%x8:0%x9:0%x10:8%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:43%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 00112223
+DECODE: Operation is store_word first operand R2 Second operand R1 Immediate 4
+func3 : 2 func7 : 0
+
+... FETCHING ... 00a12023
+FETCH: Instruction  00a12023 fetched from address 0x20%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:8%x6:0%x7:0%x8:0%x9:0%x10:8%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:44%pc:24%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+
+... STALL ... MEMORY ... ff810113
+... EXECUTING ... 00112223
+First PC iS 16
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483612
+EXECUTE: Branch is not taken
+Second PC iS 20
+
+... DECODING ... 00a12023
+DECODE: Operation is store_word first operand R2 Second operand R10 Immediate 0
+func3 : 2 func7 : 0
+
+... FETCHING ... fff50293
+FETCH: Instruction  fff50293 fetched from address 0x24%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:8%x6:0%x7:0%x8:0%x9:0%x10:8%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:45%pc:28%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+... ACCESSING MEMORY ... 00112223
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 48
+
+... EXECUTING ... 00a12023
+First PC iS 20
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483608
+EXECUTE: Branch is not taken
+Second PC iS 24
+
+... DECODING ... fff50293
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R5
+func3 : 0 func7 : 127
+
+... FETCHING ... 0002d663
+FETCH: Instruction  0002d663 fetched from address 0x28%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:8%x6:0%x7:0%x8:0%x9:0%x10:8%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:46%pc:32%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00112223
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... 00a12023
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 8
+
+... EXECUTING ... fff50293
+First PC iS 24
+EXECUTE: Alu Operation : addi  Operation Result : 7
+EXECUTE: Branch is not taken
+Second PC iS 28
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:8%x6:0%x7:0%x8:0%x9:0%x10:8%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:47%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00a12023
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... fff50293
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:8%x6:0%x7:0%x8:0%x9:0%x10:8%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:48%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fff50293
+WRITEBACK: writing 7 to Register R5
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:7%x6:0%x7:0%x8:0%x9:0%x10:8%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:49%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 0002d663
+DECODE: Operation is bge first operand R5 Second operand R0 Immediate 12
+func3 : 5 func7 : 0
+
+... FETCHING ... 00000513
+FETCH: Instruction  00000513 fetched from address 0x32%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:7%x6:0%x7:0%x8:0%x9:0%x10:8%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:50%pc:36%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... fff50293
+
+
+... STALL ... MEMORY ... fff50293
+... EXECUTING ... 0002d663
+op1 is 7 op2 is 0
+First PC iS 28
+EXECUTE: Alu Operation : bge  Operation Result : 7
+EXECUTE: Branch is taken
+Second PC iS 40
+
+... DECODING ... 00000513
+DECODE: Operation is addi first operand R0 Immediate 0 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x36%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:7%x6:0%x7:0%x8:0%x9:0%x10:8%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:51%pc:40%RAW_dep:0%JAL_dep:0%CNTR_dep:1%
+$
+... STALL ... WRITE back ... fff50293
+
+... ACCESSING MEMORY ... 0002d663
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000513
+
+... STALL ... DECODE ... 00008067
+
+... FETCHING ... fff50513
+FETCH: Instruction  fff50513 fetched from address 0x40%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:7%x6:0%x7:0%x8:0%x9:0%x10:8%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:52%pc:44%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 0002d663
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000513
+
+... STALL ... EXECUTE ... 00008067
+
+... DECODING ... fff50513
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R10
+func3 : 0 func7 : 127
+
+... FETCHING ... fe1ff0ef
+FETCH: Instruction  fe1ff0ef fetched from address 0x44%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:7%x6:0%x7:0%x8:0%x9:0%x10:8%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:53%pc:48%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000513
+
+
+... STALL ... MEMORY ... 00008067
+... EXECUTING ... fff50513
+First PC iS 40
+EXECUTE: Alu Operation : addi  Operation Result : 7
+EXECUTE: Branch is not taken
+Second PC iS 44
+
+... DECODING ... fe1ff0ef
+DECODE: Operation is jal Destination Register is R1 Immediate -32
+func3 : 7 func7 : 127
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:7%x6:0%x7:0%x8:0%x9:0%x10:8%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:54%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00008067
+
+... ACCESSING MEMORY ... fff50513
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... fe1ff0ef
+First PC iS 44
+EXECUTE: Alu Operation : jal  Operation Result : 48
+EXECUTE: Branch is taken
+Second PC iS 12
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:7%x6:0%x7:0%x8:0%x9:0%x10:8%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:55%pc:12%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... fff50513
+WRITEBACK: writing 7 to Register R10
+
+... ACCESSING MEMORY ... fe1ff0ef
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00050313
+
+... STALL ... DECODE ... 00012503
+
+... FETCHING ... ff810113
+FETCH: Instruction  ff810113 fetched from address 0x12%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:7%x6:0%x7:0%x8:0%x9:0%x10:7%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:56%pc:16%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fe1ff0ef
+WRITEBACK: writing 48 to Register R1
+
+
+... STALL ... MEMORY ... 00050313
+
+... STALL ... EXECUTE ... 00012503
+
+... DECODING ... ff810113
+DECODE: Operation is addi first operand R2 Immediate -8 destination register R2
+func3 : 0 func7 : 127
+
+... FETCHING ... 00112223
+FETCH: Instruction  00112223 fetched from address 0x16%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:7%x6:0%x7:0%x8:0%x9:0%x10:7%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:57%pc:20%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00050313
+
+
+... STALL ... MEMORY ... 00012503
+... EXECUTING ... ff810113
+First PC iS 12
+EXECUTE: Alu Operation : addi  Operation Result : 2147483600
+EXECUTE: Branch is not taken
+Second PC iS 16
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:7%x6:0%x7:0%x8:0%x9:0%x10:7%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:58%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00012503
+
+... ACCESSING MEMORY ... ff810113
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:7%x6:0%x7:0%x8:0%x9:0%x10:7%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:59%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... ff810113
+WRITEBACK: writing 2147483600 to Register R2
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:7%x6:0%x7:0%x8:0%x9:0%x10:7%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:60%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 00112223
+DECODE: Operation is store_word first operand R2 Second operand R1 Immediate 4
+func3 : 2 func7 : 0
+
+... FETCHING ... 00a12023
+FETCH: Instruction  00a12023 fetched from address 0x20%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:7%x6:0%x7:0%x8:0%x9:0%x10:7%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:61%pc:24%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+
+... STALL ... MEMORY ... ff810113
+... EXECUTING ... 00112223
+First PC iS 16
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483604
+EXECUTE: Branch is not taken
+Second PC iS 20
+
+... DECODING ... 00a12023
+DECODE: Operation is store_word first operand R2 Second operand R10 Immediate 0
+func3 : 2 func7 : 0
+
+... FETCHING ... fff50293
+FETCH: Instruction  fff50293 fetched from address 0x24%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:7%x6:0%x7:0%x8:0%x9:0%x10:7%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:62%pc:28%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+... ACCESSING MEMORY ... 00112223
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 48
+
+... EXECUTING ... 00a12023
+First PC iS 20
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483600
+EXECUTE: Branch is not taken
+Second PC iS 24
+
+... DECODING ... fff50293
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R5
+func3 : 0 func7 : 127
+
+... FETCHING ... 0002d663
+FETCH: Instruction  0002d663 fetched from address 0x28%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:7%x6:0%x7:0%x8:0%x9:0%x10:7%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:63%pc:32%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00112223
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... 00a12023
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 7
+
+... EXECUTING ... fff50293
+First PC iS 24
+EXECUTE: Alu Operation : addi  Operation Result : 6
+EXECUTE: Branch is not taken
+Second PC iS 28
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:7%x6:0%x7:0%x8:0%x9:0%x10:7%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:64%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00a12023
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... fff50293
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:7%x6:0%x7:0%x8:0%x9:0%x10:7%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:65%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fff50293
+WRITEBACK: writing 6 to Register R5
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:6%x6:0%x7:0%x8:0%x9:0%x10:7%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:66%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 0002d663
+DECODE: Operation is bge first operand R5 Second operand R0 Immediate 12
+func3 : 5 func7 : 0
+
+... FETCHING ... 00000513
+FETCH: Instruction  00000513 fetched from address 0x32%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:6%x6:0%x7:0%x8:0%x9:0%x10:7%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:67%pc:36%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... fff50293
+
+
+... STALL ... MEMORY ... fff50293
+... EXECUTING ... 0002d663
+op1 is 6 op2 is 0
+First PC iS 28
+EXECUTE: Alu Operation : bge  Operation Result : 6
+EXECUTE: Branch is taken
+Second PC iS 40
+
+... DECODING ... 00000513
+DECODE: Operation is addi first operand R0 Immediate 0 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x36%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:6%x6:0%x7:0%x8:0%x9:0%x10:7%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:68%pc:40%RAW_dep:0%JAL_dep:0%CNTR_dep:1%
+$
+... STALL ... WRITE back ... fff50293
+
+... ACCESSING MEMORY ... 0002d663
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000513
+
+... STALL ... DECODE ... 00008067
+
+... FETCHING ... fff50513
+FETCH: Instruction  fff50513 fetched from address 0x40%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:6%x6:0%x7:0%x8:0%x9:0%x10:7%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:69%pc:44%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 0002d663
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000513
+
+... STALL ... EXECUTE ... 00008067
+
+... DECODING ... fff50513
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R10
+func3 : 0 func7 : 127
+
+... FETCHING ... fe1ff0ef
+FETCH: Instruction  fe1ff0ef fetched from address 0x44%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:6%x6:0%x7:0%x8:0%x9:0%x10:7%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:70%pc:48%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000513
+
+
+... STALL ... MEMORY ... 00008067
+... EXECUTING ... fff50513
+First PC iS 40
+EXECUTE: Alu Operation : addi  Operation Result : 6
+EXECUTE: Branch is not taken
+Second PC iS 44
+
+... DECODING ... fe1ff0ef
+DECODE: Operation is jal Destination Register is R1 Immediate -32
+func3 : 7 func7 : 127
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:6%x6:0%x7:0%x8:0%x9:0%x10:7%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:71%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00008067
+
+... ACCESSING MEMORY ... fff50513
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... fe1ff0ef
+First PC iS 44
+EXECUTE: Alu Operation : jal  Operation Result : 48
+EXECUTE: Branch is taken
+Second PC iS 12
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:6%x6:0%x7:0%x8:0%x9:0%x10:7%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:72%pc:12%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... fff50513
+WRITEBACK: writing 6 to Register R10
+
+... ACCESSING MEMORY ... fe1ff0ef
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00050313
+
+... STALL ... DECODE ... 00012503
+
+... FETCHING ... ff810113
+FETCH: Instruction  ff810113 fetched from address 0x12%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:6%x6:0%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:73%pc:16%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fe1ff0ef
+WRITEBACK: writing 48 to Register R1
+
+
+... STALL ... MEMORY ... 00050313
+
+... STALL ... EXECUTE ... 00012503
+
+... DECODING ... ff810113
+DECODE: Operation is addi first operand R2 Immediate -8 destination register R2
+func3 : 0 func7 : 127
+
+... FETCHING ... 00112223
+FETCH: Instruction  00112223 fetched from address 0x16%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:6%x6:0%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:74%pc:20%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00050313
+
+
+... STALL ... MEMORY ... 00012503
+... EXECUTING ... ff810113
+First PC iS 12
+EXECUTE: Alu Operation : addi  Operation Result : 2147483592
+EXECUTE: Branch is not taken
+Second PC iS 16
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:6%x6:0%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:75%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00012503
+
+... ACCESSING MEMORY ... ff810113
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:6%x6:0%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:76%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... ff810113
+WRITEBACK: writing 2147483592 to Register R2
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:6%x6:0%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:77%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 00112223
+DECODE: Operation is store_word first operand R2 Second operand R1 Immediate 4
+func3 : 2 func7 : 0
+
+... FETCHING ... 00a12023
+FETCH: Instruction  00a12023 fetched from address 0x20%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:6%x6:0%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:78%pc:24%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+
+... STALL ... MEMORY ... ff810113
+... EXECUTING ... 00112223
+First PC iS 16
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483596
+EXECUTE: Branch is not taken
+Second PC iS 20
+
+... DECODING ... 00a12023
+DECODE: Operation is store_word first operand R2 Second operand R10 Immediate 0
+func3 : 2 func7 : 0
+
+... FETCHING ... fff50293
+FETCH: Instruction  fff50293 fetched from address 0x24%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:6%x6:0%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:79%pc:28%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+... ACCESSING MEMORY ... 00112223
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 48
+
+... EXECUTING ... 00a12023
+First PC iS 20
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483592
+EXECUTE: Branch is not taken
+Second PC iS 24
+
+... DECODING ... fff50293
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R5
+func3 : 0 func7 : 127
+
+... FETCHING ... 0002d663
+FETCH: Instruction  0002d663 fetched from address 0x28%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:6%x6:0%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:80%pc:32%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00112223
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... 00a12023
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 6
+
+... EXECUTING ... fff50293
+First PC iS 24
+EXECUTE: Alu Operation : addi  Operation Result : 5
+EXECUTE: Branch is not taken
+Second PC iS 28
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:6%x6:0%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:81%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00a12023
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... fff50293
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:6%x6:0%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:82%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fff50293
+WRITEBACK: writing 5 to Register R5
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:5%x6:0%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:83%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 0002d663
+DECODE: Operation is bge first operand R5 Second operand R0 Immediate 12
+func3 : 5 func7 : 0
+
+... FETCHING ... 00000513
+FETCH: Instruction  00000513 fetched from address 0x32%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:5%x6:0%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:84%pc:36%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... fff50293
+
+
+... STALL ... MEMORY ... fff50293
+... EXECUTING ... 0002d663
+op1 is 5 op2 is 0
+First PC iS 28
+EXECUTE: Alu Operation : bge  Operation Result : 5
+EXECUTE: Branch is taken
+Second PC iS 40
+
+... DECODING ... 00000513
+DECODE: Operation is addi first operand R0 Immediate 0 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x36%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:5%x6:0%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:85%pc:40%RAW_dep:0%JAL_dep:0%CNTR_dep:1%
+$
+... STALL ... WRITE back ... fff50293
+
+... ACCESSING MEMORY ... 0002d663
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000513
+
+... STALL ... DECODE ... 00008067
+
+... FETCHING ... fff50513
+FETCH: Instruction  fff50513 fetched from address 0x40%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:5%x6:0%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:86%pc:44%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 0002d663
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000513
+
+... STALL ... EXECUTE ... 00008067
+
+... DECODING ... fff50513
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R10
+func3 : 0 func7 : 127
+
+... FETCHING ... fe1ff0ef
+FETCH: Instruction  fe1ff0ef fetched from address 0x44%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:5%x6:0%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:87%pc:48%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000513
+
+
+... STALL ... MEMORY ... 00008067
+... EXECUTING ... fff50513
+First PC iS 40
+EXECUTE: Alu Operation : addi  Operation Result : 5
+EXECUTE: Branch is not taken
+Second PC iS 44
+
+... DECODING ... fe1ff0ef
+DECODE: Operation is jal Destination Register is R1 Immediate -32
+func3 : 7 func7 : 127
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:5%x6:0%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:88%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00008067
+
+... ACCESSING MEMORY ... fff50513
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... fe1ff0ef
+First PC iS 44
+EXECUTE: Alu Operation : jal  Operation Result : 48
+EXECUTE: Branch is taken
+Second PC iS 12
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:5%x6:0%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:89%pc:12%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... fff50513
+WRITEBACK: writing 5 to Register R10
+
+... ACCESSING MEMORY ... fe1ff0ef
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00050313
+
+... STALL ... DECODE ... 00012503
+
+... FETCHING ... ff810113
+FETCH: Instruction  ff810113 fetched from address 0x12%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:5%x6:0%x7:0%x8:0%x9:0%x10:5%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:90%pc:16%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fe1ff0ef
+WRITEBACK: writing 48 to Register R1
+
+
+... STALL ... MEMORY ... 00050313
+
+... STALL ... EXECUTE ... 00012503
+
+... DECODING ... ff810113
+DECODE: Operation is addi first operand R2 Immediate -8 destination register R2
+func3 : 0 func7 : 127
+
+... FETCHING ... 00112223
+FETCH: Instruction  00112223 fetched from address 0x16%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:5%x6:0%x7:0%x8:0%x9:0%x10:5%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:91%pc:20%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00050313
+
+
+... STALL ... MEMORY ... 00012503
+... EXECUTING ... ff810113
+First PC iS 12
+EXECUTE: Alu Operation : addi  Operation Result : 2147483584
+EXECUTE: Branch is not taken
+Second PC iS 16
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:5%x6:0%x7:0%x8:0%x9:0%x10:5%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:92%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00012503
+
+... ACCESSING MEMORY ... ff810113
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:5%x6:0%x7:0%x8:0%x9:0%x10:5%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:93%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... ff810113
+WRITEBACK: writing 2147483584 to Register R2
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:5%x6:0%x7:0%x8:0%x9:0%x10:5%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:94%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 00112223
+DECODE: Operation is store_word first operand R2 Second operand R1 Immediate 4
+func3 : 2 func7 : 0
+
+... FETCHING ... 00a12023
+FETCH: Instruction  00a12023 fetched from address 0x20%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:5%x6:0%x7:0%x8:0%x9:0%x10:5%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:95%pc:24%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+
+... STALL ... MEMORY ... ff810113
+... EXECUTING ... 00112223
+First PC iS 16
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483588
+EXECUTE: Branch is not taken
+Second PC iS 20
+
+... DECODING ... 00a12023
+DECODE: Operation is store_word first operand R2 Second operand R10 Immediate 0
+func3 : 2 func7 : 0
+
+... FETCHING ... fff50293
+FETCH: Instruction  fff50293 fetched from address 0x24%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:5%x6:0%x7:0%x8:0%x9:0%x10:5%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:96%pc:28%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+... ACCESSING MEMORY ... 00112223
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 48
+
+... EXECUTING ... 00a12023
+First PC iS 20
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483584
+EXECUTE: Branch is not taken
+Second PC iS 24
+
+... DECODING ... fff50293
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R5
+func3 : 0 func7 : 127
+
+... FETCHING ... 0002d663
+FETCH: Instruction  0002d663 fetched from address 0x28%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:5%x6:0%x7:0%x8:0%x9:0%x10:5%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:97%pc:32%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00112223
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... 00a12023
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 5
+
+... EXECUTING ... fff50293
+First PC iS 24
+EXECUTE: Alu Operation : addi  Operation Result : 4
+EXECUTE: Branch is not taken
+Second PC iS 28
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:5%x6:0%x7:0%x8:0%x9:0%x10:5%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:98%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00a12023
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... fff50293
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:5%x6:0%x7:0%x8:0%x9:0%x10:5%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:99%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fff50293
+WRITEBACK: writing 4 to Register R5
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:4%x6:0%x7:0%x8:0%x9:0%x10:5%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:100%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 0002d663
+DECODE: Operation is bge first operand R5 Second operand R0 Immediate 12
+func3 : 5 func7 : 0
+
+... FETCHING ... 00000513
+FETCH: Instruction  00000513 fetched from address 0x32%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:4%x6:0%x7:0%x8:0%x9:0%x10:5%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:101%pc:36%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... fff50293
+
+
+... STALL ... MEMORY ... fff50293
+... EXECUTING ... 0002d663
+op1 is 4 op2 is 0
+First PC iS 28
+EXECUTE: Alu Operation : bge  Operation Result : 4
+EXECUTE: Branch is taken
+Second PC iS 40
+
+... DECODING ... 00000513
+DECODE: Operation is addi first operand R0 Immediate 0 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x36%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:4%x6:0%x7:0%x8:0%x9:0%x10:5%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:102%pc:40%RAW_dep:0%JAL_dep:0%CNTR_dep:1%
+$
+... STALL ... WRITE back ... fff50293
+
+... ACCESSING MEMORY ... 0002d663
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000513
+
+... STALL ... DECODE ... 00008067
+
+... FETCHING ... fff50513
+FETCH: Instruction  fff50513 fetched from address 0x40%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:4%x6:0%x7:0%x8:0%x9:0%x10:5%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:103%pc:44%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 0002d663
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000513
+
+... STALL ... EXECUTE ... 00008067
+
+... DECODING ... fff50513
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R10
+func3 : 0 func7 : 127
+
+... FETCHING ... fe1ff0ef
+FETCH: Instruction  fe1ff0ef fetched from address 0x44%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:4%x6:0%x7:0%x8:0%x9:0%x10:5%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:104%pc:48%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000513
+
+
+... STALL ... MEMORY ... 00008067
+... EXECUTING ... fff50513
+First PC iS 40
+EXECUTE: Alu Operation : addi  Operation Result : 4
+EXECUTE: Branch is not taken
+Second PC iS 44
+
+... DECODING ... fe1ff0ef
+DECODE: Operation is jal Destination Register is R1 Immediate -32
+func3 : 7 func7 : 127
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:4%x6:0%x7:0%x8:0%x9:0%x10:5%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:105%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00008067
+
+... ACCESSING MEMORY ... fff50513
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... fe1ff0ef
+First PC iS 44
+EXECUTE: Alu Operation : jal  Operation Result : 48
+EXECUTE: Branch is taken
+Second PC iS 12
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:4%x6:0%x7:0%x8:0%x9:0%x10:5%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:106%pc:12%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... fff50513
+WRITEBACK: writing 4 to Register R10
+
+... ACCESSING MEMORY ... fe1ff0ef
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00050313
+
+... STALL ... DECODE ... 00012503
+
+... FETCHING ... ff810113
+FETCH: Instruction  ff810113 fetched from address 0x12%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:4%x6:0%x7:0%x8:0%x9:0%x10:4%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:107%pc:16%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fe1ff0ef
+WRITEBACK: writing 48 to Register R1
+
+
+... STALL ... MEMORY ... 00050313
+
+... STALL ... EXECUTE ... 00012503
+
+... DECODING ... ff810113
+DECODE: Operation is addi first operand R2 Immediate -8 destination register R2
+func3 : 0 func7 : 127
+
+... FETCHING ... 00112223
+FETCH: Instruction  00112223 fetched from address 0x16%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:4%x6:0%x7:0%x8:0%x9:0%x10:4%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:108%pc:20%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00050313
+
+
+... STALL ... MEMORY ... 00012503
+... EXECUTING ... ff810113
+First PC iS 12
+EXECUTE: Alu Operation : addi  Operation Result : 2147483576
+EXECUTE: Branch is not taken
+Second PC iS 16
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:4%x6:0%x7:0%x8:0%x9:0%x10:4%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:109%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00012503
+
+... ACCESSING MEMORY ... ff810113
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:4%x6:0%x7:0%x8:0%x9:0%x10:4%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:110%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... ff810113
+WRITEBACK: writing 2147483576 to Register R2
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:4%x6:0%x7:0%x8:0%x9:0%x10:4%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:111%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 00112223
+DECODE: Operation is store_word first operand R2 Second operand R1 Immediate 4
+func3 : 2 func7 : 0
+
+... FETCHING ... 00a12023
+FETCH: Instruction  00a12023 fetched from address 0x20%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:4%x6:0%x7:0%x8:0%x9:0%x10:4%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:112%pc:24%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+
+... STALL ... MEMORY ... ff810113
+... EXECUTING ... 00112223
+First PC iS 16
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483580
+EXECUTE: Branch is not taken
+Second PC iS 20
+
+... DECODING ... 00a12023
+DECODE: Operation is store_word first operand R2 Second operand R10 Immediate 0
+func3 : 2 func7 : 0
+
+... FETCHING ... fff50293
+FETCH: Instruction  fff50293 fetched from address 0x24%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:4%x6:0%x7:0%x8:0%x9:0%x10:4%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:113%pc:28%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+... ACCESSING MEMORY ... 00112223
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 48
+
+... EXECUTING ... 00a12023
+First PC iS 20
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483576
+EXECUTE: Branch is not taken
+Second PC iS 24
+
+... DECODING ... fff50293
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R5
+func3 : 0 func7 : 127
+
+... FETCHING ... 0002d663
+FETCH: Instruction  0002d663 fetched from address 0x28%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:4%x6:0%x7:0%x8:0%x9:0%x10:4%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:114%pc:32%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00112223
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... 00a12023
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 4
+
+... EXECUTING ... fff50293
+First PC iS 24
+EXECUTE: Alu Operation : addi  Operation Result : 3
+EXECUTE: Branch is not taken
+Second PC iS 28
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:4%x6:0%x7:0%x8:0%x9:0%x10:4%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:115%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00a12023
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... fff50293
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:4%x6:0%x7:0%x8:0%x9:0%x10:4%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:116%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fff50293
+WRITEBACK: writing 3 to Register R5
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:3%x6:0%x7:0%x8:0%x9:0%x10:4%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:117%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 0002d663
+DECODE: Operation is bge first operand R5 Second operand R0 Immediate 12
+func3 : 5 func7 : 0
+
+... FETCHING ... 00000513
+FETCH: Instruction  00000513 fetched from address 0x32%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:3%x6:0%x7:0%x8:0%x9:0%x10:4%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:118%pc:36%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... fff50293
+
+
+... STALL ... MEMORY ... fff50293
+... EXECUTING ... 0002d663
+op1 is 3 op2 is 0
+First PC iS 28
+EXECUTE: Alu Operation : bge  Operation Result : 3
+EXECUTE: Branch is taken
+Second PC iS 40
+
+... DECODING ... 00000513
+DECODE: Operation is addi first operand R0 Immediate 0 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x36%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:3%x6:0%x7:0%x8:0%x9:0%x10:4%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:119%pc:40%RAW_dep:0%JAL_dep:0%CNTR_dep:1%
+$
+... STALL ... WRITE back ... fff50293
+
+... ACCESSING MEMORY ... 0002d663
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000513
+
+... STALL ... DECODE ... 00008067
+
+... FETCHING ... fff50513
+FETCH: Instruction  fff50513 fetched from address 0x40%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:3%x6:0%x7:0%x8:0%x9:0%x10:4%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:120%pc:44%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 0002d663
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000513
+
+... STALL ... EXECUTE ... 00008067
+
+... DECODING ... fff50513
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R10
+func3 : 0 func7 : 127
+
+... FETCHING ... fe1ff0ef
+FETCH: Instruction  fe1ff0ef fetched from address 0x44%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:3%x6:0%x7:0%x8:0%x9:0%x10:4%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:121%pc:48%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000513
+
+
+... STALL ... MEMORY ... 00008067
+... EXECUTING ... fff50513
+First PC iS 40
+EXECUTE: Alu Operation : addi  Operation Result : 3
+EXECUTE: Branch is not taken
+Second PC iS 44
+
+... DECODING ... fe1ff0ef
+DECODE: Operation is jal Destination Register is R1 Immediate -32
+func3 : 7 func7 : 127
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:3%x6:0%x7:0%x8:0%x9:0%x10:4%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:122%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00008067
+
+... ACCESSING MEMORY ... fff50513
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... fe1ff0ef
+First PC iS 44
+EXECUTE: Alu Operation : jal  Operation Result : 48
+EXECUTE: Branch is taken
+Second PC iS 12
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:3%x6:0%x7:0%x8:0%x9:0%x10:4%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:123%pc:12%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... fff50513
+WRITEBACK: writing 3 to Register R10
+
+... ACCESSING MEMORY ... fe1ff0ef
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00050313
+
+... STALL ... DECODE ... 00012503
+
+... FETCHING ... ff810113
+FETCH: Instruction  ff810113 fetched from address 0x12%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:3%x6:0%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:124%pc:16%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fe1ff0ef
+WRITEBACK: writing 48 to Register R1
+
+
+... STALL ... MEMORY ... 00050313
+
+... STALL ... EXECUTE ... 00012503
+
+... DECODING ... ff810113
+DECODE: Operation is addi first operand R2 Immediate -8 destination register R2
+func3 : 0 func7 : 127
+
+... FETCHING ... 00112223
+FETCH: Instruction  00112223 fetched from address 0x16%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:3%x6:0%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:125%pc:20%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00050313
+
+
+... STALL ... MEMORY ... 00012503
+... EXECUTING ... ff810113
+First PC iS 12
+EXECUTE: Alu Operation : addi  Operation Result : 2147483568
+EXECUTE: Branch is not taken
+Second PC iS 16
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:3%x6:0%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:126%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00012503
+
+... ACCESSING MEMORY ... ff810113
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:3%x6:0%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:127%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... ff810113
+WRITEBACK: writing 2147483568 to Register R2
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:3%x6:0%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:128%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 00112223
+DECODE: Operation is store_word first operand R2 Second operand R1 Immediate 4
+func3 : 2 func7 : 0
+
+... FETCHING ... 00a12023
+FETCH: Instruction  00a12023 fetched from address 0x20%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:3%x6:0%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:129%pc:24%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+
+... STALL ... MEMORY ... ff810113
+... EXECUTING ... 00112223
+First PC iS 16
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483572
+EXECUTE: Branch is not taken
+Second PC iS 20
+
+... DECODING ... 00a12023
+DECODE: Operation is store_word first operand R2 Second operand R10 Immediate 0
+func3 : 2 func7 : 0
+
+... FETCHING ... fff50293
+FETCH: Instruction  fff50293 fetched from address 0x24%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:3%x6:0%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:130%pc:28%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+... ACCESSING MEMORY ... 00112223
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 48
+
+... EXECUTING ... 00a12023
+First PC iS 20
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483568
+EXECUTE: Branch is not taken
+Second PC iS 24
+
+... DECODING ... fff50293
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R5
+func3 : 0 func7 : 127
+
+... FETCHING ... 0002d663
+FETCH: Instruction  0002d663 fetched from address 0x28%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:3%x6:0%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:131%pc:32%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00112223
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... 00a12023
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 3
+
+... EXECUTING ... fff50293
+First PC iS 24
+EXECUTE: Alu Operation : addi  Operation Result : 2
+EXECUTE: Branch is not taken
+Second PC iS 28
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:3%x6:0%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:132%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00a12023
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... fff50293
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:3%x6:0%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:133%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fff50293
+WRITEBACK: writing 2 to Register R5
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:2%x6:0%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:134%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 0002d663
+DECODE: Operation is bge first operand R5 Second operand R0 Immediate 12
+func3 : 5 func7 : 0
+
+... FETCHING ... 00000513
+FETCH: Instruction  00000513 fetched from address 0x32%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:2%x6:0%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:135%pc:36%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... fff50293
+
+
+... STALL ... MEMORY ... fff50293
+... EXECUTING ... 0002d663
+op1 is 2 op2 is 0
+First PC iS 28
+EXECUTE: Alu Operation : bge  Operation Result : 2
+EXECUTE: Branch is taken
+Second PC iS 40
+
+... DECODING ... 00000513
+DECODE: Operation is addi first operand R0 Immediate 0 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x36%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:2%x6:0%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:136%pc:40%RAW_dep:0%JAL_dep:0%CNTR_dep:1%
+$
+... STALL ... WRITE back ... fff50293
+
+... ACCESSING MEMORY ... 0002d663
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000513
+
+... STALL ... DECODE ... 00008067
+
+... FETCHING ... fff50513
+FETCH: Instruction  fff50513 fetched from address 0x40%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:2%x6:0%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:137%pc:44%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 0002d663
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000513
+
+... STALL ... EXECUTE ... 00008067
+
+... DECODING ... fff50513
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R10
+func3 : 0 func7 : 127
+
+... FETCHING ... fe1ff0ef
+FETCH: Instruction  fe1ff0ef fetched from address 0x44%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:2%x6:0%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:138%pc:48%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000513
+
+
+... STALL ... MEMORY ... 00008067
+... EXECUTING ... fff50513
+First PC iS 40
+EXECUTE: Alu Operation : addi  Operation Result : 2
+EXECUTE: Branch is not taken
+Second PC iS 44
+
+... DECODING ... fe1ff0ef
+DECODE: Operation is jal Destination Register is R1 Immediate -32
+func3 : 7 func7 : 127
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:2%x6:0%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:139%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00008067
+
+... ACCESSING MEMORY ... fff50513
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... fe1ff0ef
+First PC iS 44
+EXECUTE: Alu Operation : jal  Operation Result : 48
+EXECUTE: Branch is taken
+Second PC iS 12
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:2%x6:0%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:140%pc:12%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... fff50513
+WRITEBACK: writing 2 to Register R10
+
+... ACCESSING MEMORY ... fe1ff0ef
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00050313
+
+... STALL ... DECODE ... 00012503
+
+... FETCHING ... ff810113
+FETCH: Instruction  ff810113 fetched from address 0x12%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:2%x6:0%x7:0%x8:0%x9:0%x10:2%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:141%pc:16%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fe1ff0ef
+WRITEBACK: writing 48 to Register R1
+
+
+... STALL ... MEMORY ... 00050313
+
+... STALL ... EXECUTE ... 00012503
+
+... DECODING ... ff810113
+DECODE: Operation is addi first operand R2 Immediate -8 destination register R2
+func3 : 0 func7 : 127
+
+... FETCHING ... 00112223
+FETCH: Instruction  00112223 fetched from address 0x16%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:2%x6:0%x7:0%x8:0%x9:0%x10:2%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:142%pc:20%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00050313
+
+
+... STALL ... MEMORY ... 00012503
+... EXECUTING ... ff810113
+First PC iS 12
+EXECUTE: Alu Operation : addi  Operation Result : 2147483560
+EXECUTE: Branch is not taken
+Second PC iS 16
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:2%x6:0%x7:0%x8:0%x9:0%x10:2%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:143%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00012503
+
+... ACCESSING MEMORY ... ff810113
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:2%x6:0%x7:0%x8:0%x9:0%x10:2%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:144%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... ff810113
+WRITEBACK: writing 2147483560 to Register R2
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:2%x6:0%x7:0%x8:0%x9:0%x10:2%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:145%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 00112223
+DECODE: Operation is store_word first operand R2 Second operand R1 Immediate 4
+func3 : 2 func7 : 0
+
+... FETCHING ... 00a12023
+FETCH: Instruction  00a12023 fetched from address 0x20%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:2%x6:0%x7:0%x8:0%x9:0%x10:2%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:146%pc:24%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+
+... STALL ... MEMORY ... ff810113
+... EXECUTING ... 00112223
+First PC iS 16
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483564
+EXECUTE: Branch is not taken
+Second PC iS 20
+
+... DECODING ... 00a12023
+DECODE: Operation is store_word first operand R2 Second operand R10 Immediate 0
+func3 : 2 func7 : 0
+
+... FETCHING ... fff50293
+FETCH: Instruction  fff50293 fetched from address 0x24%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:2%x6:0%x7:0%x8:0%x9:0%x10:2%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:147%pc:28%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+... ACCESSING MEMORY ... 00112223
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 48
+
+... EXECUTING ... 00a12023
+First PC iS 20
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483560
+EXECUTE: Branch is not taken
+Second PC iS 24
+
+... DECODING ... fff50293
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R5
+func3 : 0 func7 : 127
+
+... FETCHING ... 0002d663
+FETCH: Instruction  0002d663 fetched from address 0x28%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:2%x6:0%x7:0%x8:0%x9:0%x10:2%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:148%pc:32%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00112223
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... 00a12023
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 2
+
+... EXECUTING ... fff50293
+First PC iS 24
+EXECUTE: Alu Operation : addi  Operation Result : 1
+EXECUTE: Branch is not taken
+Second PC iS 28
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:2%x6:0%x7:0%x8:0%x9:0%x10:2%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:149%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00a12023
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... fff50293
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:2%x6:0%x7:0%x8:0%x9:0%x10:2%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:150%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fff50293
+WRITEBACK: writing 1 to Register R5
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:1%x6:0%x7:0%x8:0%x9:0%x10:2%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:151%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 0002d663
+DECODE: Operation is bge first operand R5 Second operand R0 Immediate 12
+func3 : 5 func7 : 0
+
+... FETCHING ... 00000513
+FETCH: Instruction  00000513 fetched from address 0x32%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:1%x6:0%x7:0%x8:0%x9:0%x10:2%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:152%pc:36%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... fff50293
+
+
+... STALL ... MEMORY ... fff50293
+... EXECUTING ... 0002d663
+op1 is 1 op2 is 0
+First PC iS 28
+EXECUTE: Alu Operation : bge  Operation Result : 1
+EXECUTE: Branch is taken
+Second PC iS 40
+
+... DECODING ... 00000513
+DECODE: Operation is addi first operand R0 Immediate 0 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x36%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:1%x6:0%x7:0%x8:0%x9:0%x10:2%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:153%pc:40%RAW_dep:0%JAL_dep:0%CNTR_dep:1%
+$
+... STALL ... WRITE back ... fff50293
+
+... ACCESSING MEMORY ... 0002d663
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000513
+
+... STALL ... DECODE ... 00008067
+
+... FETCHING ... fff50513
+FETCH: Instruction  fff50513 fetched from address 0x40%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:1%x6:0%x7:0%x8:0%x9:0%x10:2%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:154%pc:44%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 0002d663
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000513
+
+... STALL ... EXECUTE ... 00008067
+
+... DECODING ... fff50513
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R10
+func3 : 0 func7 : 127
+
+... FETCHING ... fe1ff0ef
+FETCH: Instruction  fe1ff0ef fetched from address 0x44%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:1%x6:0%x7:0%x8:0%x9:0%x10:2%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:155%pc:48%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000513
+
+
+... STALL ... MEMORY ... 00008067
+... EXECUTING ... fff50513
+First PC iS 40
+EXECUTE: Alu Operation : addi  Operation Result : 1
+EXECUTE: Branch is not taken
+Second PC iS 44
+
+... DECODING ... fe1ff0ef
+DECODE: Operation is jal Destination Register is R1 Immediate -32
+func3 : 7 func7 : 127
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:1%x6:0%x7:0%x8:0%x9:0%x10:2%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:156%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00008067
+
+... ACCESSING MEMORY ... fff50513
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... fe1ff0ef
+First PC iS 44
+EXECUTE: Alu Operation : jal  Operation Result : 48
+EXECUTE: Branch is taken
+Second PC iS 12
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:1%x6:0%x7:0%x8:0%x9:0%x10:2%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:157%pc:12%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... fff50513
+WRITEBACK: writing 1 to Register R10
+
+... ACCESSING MEMORY ... fe1ff0ef
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00050313
+
+... STALL ... DECODE ... 00012503
+
+... FETCHING ... ff810113
+FETCH: Instruction  ff810113 fetched from address 0x12%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:1%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:158%pc:16%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fe1ff0ef
+WRITEBACK: writing 48 to Register R1
+
+
+... STALL ... MEMORY ... 00050313
+
+... STALL ... EXECUTE ... 00012503
+
+... DECODING ... ff810113
+DECODE: Operation is addi first operand R2 Immediate -8 destination register R2
+func3 : 0 func7 : 127
+
+... FETCHING ... 00112223
+FETCH: Instruction  00112223 fetched from address 0x16%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:1%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:159%pc:20%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00050313
+
+
+... STALL ... MEMORY ... 00012503
+... EXECUTING ... ff810113
+First PC iS 12
+EXECUTE: Alu Operation : addi  Operation Result : 2147483552
+EXECUTE: Branch is not taken
+Second PC iS 16
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:1%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:160%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00012503
+
+... ACCESSING MEMORY ... ff810113
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:1%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:161%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... ff810113
+WRITEBACK: writing 2147483552 to Register R2
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:1%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:162%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 00112223
+DECODE: Operation is store_word first operand R2 Second operand R1 Immediate 4
+func3 : 2 func7 : 0
+
+... FETCHING ... 00a12023
+FETCH: Instruction  00a12023 fetched from address 0x20%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:1%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:163%pc:24%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+
+... STALL ... MEMORY ... ff810113
+... EXECUTING ... 00112223
+First PC iS 16
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483556
+EXECUTE: Branch is not taken
+Second PC iS 20
+
+... DECODING ... 00a12023
+DECODE: Operation is store_word first operand R2 Second operand R10 Immediate 0
+func3 : 2 func7 : 0
+
+... FETCHING ... fff50293
+FETCH: Instruction  fff50293 fetched from address 0x24%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:1%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:164%pc:28%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+... ACCESSING MEMORY ... 00112223
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 48
+
+... EXECUTING ... 00a12023
+First PC iS 20
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483552
+EXECUTE: Branch is not taken
+Second PC iS 24
+
+... DECODING ... fff50293
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R5
+func3 : 0 func7 : 127
+
+... FETCHING ... 0002d663
+FETCH: Instruction  0002d663 fetched from address 0x28%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:1%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:165%pc:32%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00112223
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... 00a12023
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 1
+
+... EXECUTING ... fff50293
+First PC iS 24
+EXECUTE: Alu Operation : addi  Operation Result : 0
+EXECUTE: Branch is not taken
+Second PC iS 28
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:1%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:166%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00a12023
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... fff50293
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:1%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:167%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fff50293
+WRITEBACK: writing 0 to Register R5
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:168%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 0002d663
+DECODE: Operation is bge first operand R5 Second operand R0 Immediate 12
+func3 : 5 func7 : 0
+
+... FETCHING ... 00000513
+FETCH: Instruction  00000513 fetched from address 0x32%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:169%pc:36%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... fff50293
+
+
+... STALL ... MEMORY ... fff50293
+... EXECUTING ... 0002d663
+op1 is 0 op2 is 0
+First PC iS 28
+EXECUTE: Alu Operation : bge  Operation Result : 0
+EXECUTE: Branch is taken
+Second PC iS 40
+
+... DECODING ... 00000513
+DECODE: Operation is addi first operand R0 Immediate 0 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x36%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:170%pc:40%RAW_dep:0%JAL_dep:0%CNTR_dep:1%
+$
+... STALL ... WRITE back ... fff50293
+
+... ACCESSING MEMORY ... 0002d663
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000513
+
+... STALL ... DECODE ... 00008067
+
+... FETCHING ... fff50513
+FETCH: Instruction  fff50513 fetched from address 0x40%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:171%pc:44%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 0002d663
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000513
+
+... STALL ... EXECUTE ... 00008067
+
+... DECODING ... fff50513
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R10
+func3 : 0 func7 : 127
+
+... FETCHING ... fe1ff0ef
+FETCH: Instruction  fe1ff0ef fetched from address 0x44%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:172%pc:48%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000513
+
+
+... STALL ... MEMORY ... 00008067
+... EXECUTING ... fff50513
+First PC iS 40
+EXECUTE: Alu Operation : addi  Operation Result : 0
+EXECUTE: Branch is not taken
+Second PC iS 44
+
+... DECODING ... fe1ff0ef
+DECODE: Operation is jal Destination Register is R1 Immediate -32
+func3 : 7 func7 : 127
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:173%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00008067
+
+... ACCESSING MEMORY ... fff50513
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... fe1ff0ef
+First PC iS 44
+EXECUTE: Alu Operation : jal  Operation Result : 48
+EXECUTE: Branch is taken
+Second PC iS 12
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:174%pc:12%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... fff50513
+WRITEBACK: writing 0 to Register R10
+
+... ACCESSING MEMORY ... fe1ff0ef
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00050313
+
+... STALL ... DECODE ... 00012503
+
+... FETCHING ... ff810113
+FETCH: Instruction  ff810113 fetched from address 0x12%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:175%pc:16%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fe1ff0ef
+WRITEBACK: writing 48 to Register R1
+
+
+... STALL ... MEMORY ... 00050313
+
+... STALL ... EXECUTE ... 00012503
+
+... DECODING ... ff810113
+DECODE: Operation is addi first operand R2 Immediate -8 destination register R2
+func3 : 0 func7 : 127
+
+... FETCHING ... 00112223
+FETCH: Instruction  00112223 fetched from address 0x16%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:176%pc:20%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00050313
+
+
+... STALL ... MEMORY ... 00012503
+... EXECUTING ... ff810113
+First PC iS 12
+EXECUTE: Alu Operation : addi  Operation Result : 2147483544
+EXECUTE: Branch is not taken
+Second PC iS 16
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:177%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00012503
+
+... ACCESSING MEMORY ... ff810113
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:178%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... ff810113
+WRITEBACK: writing 2147483544 to Register R2
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483544%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:179%pc:20%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 00112223
+DECODE: Operation is store_word first operand R2 Second operand R1 Immediate 4
+func3 : 2 func7 : 0
+
+... FETCHING ... 00a12023
+FETCH: Instruction  00a12023 fetched from address 0x20%x0:0%x1:48%x2:2147483544%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:180%pc:24%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+
+... STALL ... MEMORY ... ff810113
+... EXECUTING ... 00112223
+First PC iS 16
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483548
+EXECUTE: Branch is not taken
+Second PC iS 20
+
+... DECODING ... 00a12023
+DECODE: Operation is store_word first operand R2 Second operand R10 Immediate 0
+func3 : 2 func7 : 0
+
+... FETCHING ... fff50293
+FETCH: Instruction  fff50293 fetched from address 0x24%x0:0%x1:48%x2:2147483544%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:181%pc:28%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+... ACCESSING MEMORY ... 00112223
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 48
+
+... EXECUTING ... 00a12023
+First PC iS 20
+EXECUTE: Alu Operation : store_word  Operation Result : 2147483544
+EXECUTE: Branch is not taken
+Second PC iS 24
+
+... DECODING ... fff50293
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R5
+func3 : 0 func7 : 127
+
+... FETCHING ... 0002d663
+FETCH: Instruction  0002d663 fetched from address 0x28%x0:0%x1:48%x2:2147483544%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:182%pc:32%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00112223
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... 00a12023
+MEMORY: store_word operation is performed in the memory, stored value (of op2): 0
+
+... EXECUTING ... fff50293
+First PC iS 24
+EXECUTE: Alu Operation : addi  Operation Result : -1
+EXECUTE: Branch is not taken
+Second PC iS 28
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483544%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:183%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00a12023
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... fff50293
+MEMORY: No memory operation to perform.
+
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483544%x3:0%x4:0%x5:0%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:184%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... fff50293
+WRITEBACK: writing -1 to Register R5
+
+... STALL ... MEMORY
+... STALL ... EXECUTE
+... DECODE STOPPED ...
+... FETCH STOPPED ...
+%x0:0%x1:48%x2:2147483544%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:185%pc:32%RAW_dep:3%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back
+... STALL ... MEMORY
+... STALL ... EXECUTE
+
+... DECODING ... 0002d663
+DECODE: Operation is bge first operand R5 Second operand R0 Immediate 12
+func3 : 5 func7 : 0
+
+... FETCHING ... 00000513
+FETCH: Instruction  00000513 fetched from address 0x32%x0:0%x1:48%x2:2147483544%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:186%pc:36%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... fff50293
+
+
+... STALL ... MEMORY ... fff50293
+... EXECUTING ... 0002d663
+op1 is -1 op2 is 0
+First PC iS 28
+EXECUTE: Alu Operation : bge  Operation Result : -1
+EXECUTE: Branch is not taken
+Second PC iS 32
+
+... DECODING ... 00000513
+DECODE: Operation is addi first operand R0 Immediate 0 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x36%x0:0%x1:48%x2:2147483544%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:187%pc:40%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... fff50293
+
+... ACCESSING MEMORY ... 0002d663
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00000513
+First PC iS 32
+EXECUTE: Alu Operation : addi  Operation Result : 0
+EXECUTE: Branch is not taken
+Second PC iS 36
+
+... DECODING ... 00008067
+DECODE: Operation is jalr first operand R1 Immediate 0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... fff50513
+FETCH: Instruction  fff50513 fetched from address 0x40%x0:0%x1:48%x2:2147483544%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:188%pc:44%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 0002d663
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... 00000513
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00008067
+First PC iS 36
+EXECUTE: Alu Operation : jalr  Operation Result : 40
+EXECUTE: Branch is taken
+Second PC iS 48
+
+... DECODING ... fff50513
+DECODE: Operation is addi first operand R10 Immediate -1 destination register R10
+func3 : 0 func7 : 127
+
+... FETCHING ... fe1ff0ef
+FETCH: Instruction  fe1ff0ef fetched from address 0x44%x0:0%x1:48%x2:2147483544%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:189%pc:48%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... 00000513
+WRITEBACK: writing 0 to Register R10
+
+... ACCESSING MEMORY ... 00008067
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... fff50513
+
+... STALL ... DECODE ... fe1ff0ef
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:48%x2:2147483544%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:190%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00008067
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... fff50513
+
+... STALL ... EXECUTE ... fe1ff0ef
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:48%x2:2147483544%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:191%pc:56%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... fff50513
+
+
+... STALL ... MEMORY ... fe1ff0ef
+... EXECUTING ... 00050313
+First PC iS 48
+EXECUTE: Alu Operation : addi  Operation Result : 0
+EXECUTE: Branch is not taken
+Second PC iS 52
+
+... DECODING ... 00012503
+DECODE: Operation is load_word first operand R2 Immediate 0 destination register R10
+func3 : 2 func7 : 0
+
+... FETCHING ... 00412083
+FETCH: Instruction  00412083 fetched from address 0x56%x0:0%x1:48%x2:2147483544%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:192%pc:60%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... fe1ff0ef
+
+... ACCESSING MEMORY ... 00050313
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00012503
+First PC iS 52
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483544
+EXECUTE: Branch is not taken
+Second PC iS 56
+
+... DECODING ... 00412083
+DECODE: Operation is load_word first operand R2 Immediate 4 destination register R1
+func3 : 2 func7 : 0
+
+... FETCHING ... 00810113
+FETCH: Instruction  00810113 fetched from address 0x60%x0:0%x1:48%x2:2147483544%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:193%pc:64%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00050313
+WRITEBACK: writing 0 to Register R6
+
+... ACCESSING MEMORY ... 00012503
+MEMORY: load_word operation is performed in the memory, loaded value (in op2): 0
+
+... EXECUTING ... 00412083
+First PC iS 56
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483548
+EXECUTE: Branch is not taken
+Second PC iS 60
+
+... DECODING ... 00810113
+DECODE: Operation is addi first operand R2 Immediate 8 destination register R2
+func3 : 0 func7 : 0
+
+... FETCHING ... 00650533
+FETCH: Instruction  00650533 fetched from address 0x64%x0:0%x1:48%x2:2147483544%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:194%pc:68%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00012503
+WRITEBACK: writing 0 to Register R10
+
+... ACCESSING MEMORY ... 00412083
+MEMORY: addi operation is performed in the memory, loaded value (in op2): 48
+
+... EXECUTING ... 00810113
+First PC iS 60
+EXECUTE: Alu Operation : addi  Operation Result : 2147483552
+EXECUTE: Branch is not taken
+Second PC iS 64
+
+... DECODING ... 00650533
+DECODE: Operation is add first operand R10 Second operand R6 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x68%x0:0%x1:48%x2:2147483544%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:195%pc:72%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00412083
+WRITEBACK: writing 48 to Register R1
+
+... ACCESSING MEMORY ... 00810113
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00650533
+First PC iS 64
+EXECUTE: Alu Operation : add  Operation Result : 0
+EXECUTE: Branch is not taken
+Second PC iS 68
+
+... DECODING ... 00008067
+DECODE: Operation is jalr first operand R1 Immediate 0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... 00000033
+FETCH: Instruction  00000033 fetched from address 0x72%x0:0%x1:48%x2:2147483544%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:196%pc:76%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00810113
+WRITEBACK: writing 2147483552 to Register R2
+
+... ACCESSING MEMORY ... 00650533
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00008067
+First PC iS 68
+EXECUTE: Alu Operation : jalr  Operation Result : 72
+EXECUTE: Branch is taken
+Second PC iS 48
+
+... DECODING ... 00000033
+DECODE: Operation is add first operand R0 Second operand R0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... -1
+FETCH: Instruction  -1 fetched from address 0x76%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:197%pc:48%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... 00650533
+WRITEBACK: writing 0 to Register R10
+
+... ACCESSING MEMORY ... 00008067
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000033
+
+... STALL ... DECODE ... -1
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:198%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00008067
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000033
+
+... STALL ... EXECUTE ... -1
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:199%pc:56%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000033
+
+
+... STALL ... MEMORY ... -1
+... EXECUTING ... 00050313
+First PC iS 48
+EXECUTE: Alu Operation : addi  Operation Result : 0
+EXECUTE: Branch is not taken
+Second PC iS 52
+
+... DECODING ... 00012503
+DECODE: Operation is load_word first operand R2 Immediate 0 destination register R10
+func3 : 2 func7 : 0
+
+... FETCHING ... 00412083
+FETCH: Instruction  00412083 fetched from address 0x56%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:200%pc:60%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... -1
+
+... ACCESSING MEMORY ... 00050313
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00012503
+First PC iS 52
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483552
+EXECUTE: Branch is not taken
+Second PC iS 56
+
+... DECODING ... 00412083
+DECODE: Operation is load_word first operand R2 Immediate 4 destination register R1
+func3 : 2 func7 : 0
+
+... FETCHING ... 00810113
+FETCH: Instruction  00810113 fetched from address 0x60%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:201%pc:64%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00050313
+WRITEBACK: writing 0 to Register R6
+
+... ACCESSING MEMORY ... 00012503
+MEMORY: load_word operation is performed in the memory, loaded value (in op2): 1
+
+... EXECUTING ... 00412083
+First PC iS 56
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483556
+EXECUTE: Branch is not taken
+Second PC iS 60
+
+... DECODING ... 00810113
+DECODE: Operation is addi first operand R2 Immediate 8 destination register R2
+func3 : 0 func7 : 0
+
+... FETCHING ... 00650533
+FETCH: Instruction  00650533 fetched from address 0x64%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:0%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:202%pc:68%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00012503
+WRITEBACK: writing 1 to Register R10
+
+... ACCESSING MEMORY ... 00412083
+MEMORY: addi operation is performed in the memory, loaded value (in op2): 48
+
+... EXECUTING ... 00810113
+First PC iS 60
+EXECUTE: Alu Operation : addi  Operation Result : 2147483560
+EXECUTE: Branch is not taken
+Second PC iS 64
+
+... DECODING ... 00650533
+DECODE: Operation is add first operand R10 Second operand R6 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x68%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:203%pc:72%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00412083
+WRITEBACK: writing 48 to Register R1
+
+... ACCESSING MEMORY ... 00810113
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00650533
+First PC iS 64
+EXECUTE: Alu Operation : add  Operation Result : 1
+EXECUTE: Branch is not taken
+Second PC iS 68
+
+... DECODING ... 00008067
+DECODE: Operation is jalr first operand R1 Immediate 0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... 00000033
+FETCH: Instruction  00000033 fetched from address 0x72%x0:0%x1:48%x2:2147483552%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:204%pc:76%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00810113
+WRITEBACK: writing 2147483560 to Register R2
+
+... ACCESSING MEMORY ... 00650533
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00008067
+First PC iS 68
+EXECUTE: Alu Operation : jalr  Operation Result : 72
+EXECUTE: Branch is taken
+Second PC iS 48
+
+... DECODING ... 00000033
+DECODE: Operation is add first operand R0 Second operand R0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... -1
+FETCH: Instruction  -1 fetched from address 0x76%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:205%pc:48%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... 00650533
+WRITEBACK: writing 1 to Register R10
+
+... ACCESSING MEMORY ... 00008067
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000033
+
+... STALL ... DECODE ... -1
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:206%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00008067
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000033
+
+... STALL ... EXECUTE ... -1
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:207%pc:56%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000033
+
+
+... STALL ... MEMORY ... -1
+... EXECUTING ... 00050313
+First PC iS 48
+EXECUTE: Alu Operation : addi  Operation Result : 1
+EXECUTE: Branch is not taken
+Second PC iS 52
+
+... DECODING ... 00012503
+DECODE: Operation is load_word first operand R2 Immediate 0 destination register R10
+func3 : 2 func7 : 0
+
+... FETCHING ... 00412083
+FETCH: Instruction  00412083 fetched from address 0x56%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:208%pc:60%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... -1
+
+... ACCESSING MEMORY ... 00050313
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00012503
+First PC iS 52
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483560
+EXECUTE: Branch is not taken
+Second PC iS 56
+
+... DECODING ... 00412083
+DECODE: Operation is load_word first operand R2 Immediate 4 destination register R1
+func3 : 2 func7 : 0
+
+... FETCHING ... 00810113
+FETCH: Instruction  00810113 fetched from address 0x60%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:-1%x6:0%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:209%pc:64%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00050313
+WRITEBACK: writing 1 to Register R6
+
+... ACCESSING MEMORY ... 00012503
+MEMORY: load_word operation is performed in the memory, loaded value (in op2): 2
+
+... EXECUTING ... 00412083
+First PC iS 56
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483564
+EXECUTE: Branch is not taken
+Second PC iS 60
+
+... DECODING ... 00810113
+DECODE: Operation is addi first operand R2 Immediate 8 destination register R2
+func3 : 0 func7 : 0
+
+... FETCHING ... 00650533
+FETCH: Instruction  00650533 fetched from address 0x64%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:-1%x6:1%x7:0%x8:0%x9:0%x10:1%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:210%pc:68%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00012503
+WRITEBACK: writing 2 to Register R10
+
+... ACCESSING MEMORY ... 00412083
+MEMORY: addi operation is performed in the memory, loaded value (in op2): 48
+
+... EXECUTING ... 00810113
+First PC iS 60
+EXECUTE: Alu Operation : addi  Operation Result : 2147483568
+EXECUTE: Branch is not taken
+Second PC iS 64
+
+... DECODING ... 00650533
+DECODE: Operation is add first operand R10 Second operand R6 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x68%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:-1%x6:1%x7:0%x8:0%x9:0%x10:2%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:211%pc:72%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00412083
+WRITEBACK: writing 48 to Register R1
+
+... ACCESSING MEMORY ... 00810113
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00650533
+First PC iS 64
+EXECUTE: Alu Operation : add  Operation Result : 3
+EXECUTE: Branch is not taken
+Second PC iS 68
+
+... DECODING ... 00008067
+DECODE: Operation is jalr first operand R1 Immediate 0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... 00000033
+FETCH: Instruction  00000033 fetched from address 0x72%x0:0%x1:48%x2:2147483560%x3:0%x4:0%x5:-1%x6:1%x7:0%x8:0%x9:0%x10:2%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:212%pc:76%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00810113
+WRITEBACK: writing 2147483568 to Register R2
+
+... ACCESSING MEMORY ... 00650533
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00008067
+First PC iS 68
+EXECUTE: Alu Operation : jalr  Operation Result : 72
+EXECUTE: Branch is taken
+Second PC iS 48
+
+... DECODING ... 00000033
+DECODE: Operation is add first operand R0 Second operand R0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... -1
+FETCH: Instruction  -1 fetched from address 0x76%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:-1%x6:1%x7:0%x8:0%x9:0%x10:2%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:213%pc:48%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... 00650533
+WRITEBACK: writing 3 to Register R10
+
+... ACCESSING MEMORY ... 00008067
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000033
+
+... STALL ... DECODE ... -1
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:-1%x6:1%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:214%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00008067
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000033
+
+... STALL ... EXECUTE ... -1
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:-1%x6:1%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:215%pc:56%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000033
+
+
+... STALL ... MEMORY ... -1
+... EXECUTING ... 00050313
+First PC iS 48
+EXECUTE: Alu Operation : addi  Operation Result : 3
+EXECUTE: Branch is not taken
+Second PC iS 52
+
+... DECODING ... 00012503
+DECODE: Operation is load_word first operand R2 Immediate 0 destination register R10
+func3 : 2 func7 : 0
+
+... FETCHING ... 00412083
+FETCH: Instruction  00412083 fetched from address 0x56%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:-1%x6:1%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:216%pc:60%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... -1
+
+... ACCESSING MEMORY ... 00050313
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00012503
+First PC iS 52
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483568
+EXECUTE: Branch is not taken
+Second PC iS 56
+
+... DECODING ... 00412083
+DECODE: Operation is load_word first operand R2 Immediate 4 destination register R1
+func3 : 2 func7 : 0
+
+... FETCHING ... 00810113
+FETCH: Instruction  00810113 fetched from address 0x60%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:-1%x6:1%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:217%pc:64%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00050313
+WRITEBACK: writing 3 to Register R6
+
+... ACCESSING MEMORY ... 00012503
+MEMORY: load_word operation is performed in the memory, loaded value (in op2): 3
+
+... EXECUTING ... 00412083
+First PC iS 56
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483572
+EXECUTE: Branch is not taken
+Second PC iS 60
+
+... DECODING ... 00810113
+DECODE: Operation is addi first operand R2 Immediate 8 destination register R2
+func3 : 0 func7 : 0
+
+... FETCHING ... 00650533
+FETCH: Instruction  00650533 fetched from address 0x64%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:-1%x6:3%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:218%pc:68%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00012503
+WRITEBACK: writing 3 to Register R10
+
+... ACCESSING MEMORY ... 00412083
+MEMORY: addi operation is performed in the memory, loaded value (in op2): 48
+
+... EXECUTING ... 00810113
+First PC iS 60
+EXECUTE: Alu Operation : addi  Operation Result : 2147483576
+EXECUTE: Branch is not taken
+Second PC iS 64
+
+... DECODING ... 00650533
+DECODE: Operation is add first operand R10 Second operand R6 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x68%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:-1%x6:3%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:219%pc:72%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00412083
+WRITEBACK: writing 48 to Register R1
+
+... ACCESSING MEMORY ... 00810113
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00650533
+First PC iS 64
+EXECUTE: Alu Operation : add  Operation Result : 6
+EXECUTE: Branch is not taken
+Second PC iS 68
+
+... DECODING ... 00008067
+DECODE: Operation is jalr first operand R1 Immediate 0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... 00000033
+FETCH: Instruction  00000033 fetched from address 0x72%x0:0%x1:48%x2:2147483568%x3:0%x4:0%x5:-1%x6:3%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:220%pc:76%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00810113
+WRITEBACK: writing 2147483576 to Register R2
+
+... ACCESSING MEMORY ... 00650533
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00008067
+First PC iS 68
+EXECUTE: Alu Operation : jalr  Operation Result : 72
+EXECUTE: Branch is taken
+Second PC iS 48
+
+... DECODING ... 00000033
+DECODE: Operation is add first operand R0 Second operand R0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... -1
+FETCH: Instruction  -1 fetched from address 0x76%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:-1%x6:3%x7:0%x8:0%x9:0%x10:3%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:221%pc:48%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... 00650533
+WRITEBACK: writing 6 to Register R10
+
+... ACCESSING MEMORY ... 00008067
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000033
+
+... STALL ... DECODE ... -1
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:-1%x6:3%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:222%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00008067
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000033
+
+... STALL ... EXECUTE ... -1
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:-1%x6:3%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:223%pc:56%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000033
+
+
+... STALL ... MEMORY ... -1
+... EXECUTING ... 00050313
+First PC iS 48
+EXECUTE: Alu Operation : addi  Operation Result : 6
+EXECUTE: Branch is not taken
+Second PC iS 52
+
+... DECODING ... 00012503
+DECODE: Operation is load_word first operand R2 Immediate 0 destination register R10
+func3 : 2 func7 : 0
+
+... FETCHING ... 00412083
+FETCH: Instruction  00412083 fetched from address 0x56%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:-1%x6:3%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:224%pc:60%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... -1
+
+... ACCESSING MEMORY ... 00050313
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00012503
+First PC iS 52
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483576
+EXECUTE: Branch is not taken
+Second PC iS 56
+
+... DECODING ... 00412083
+DECODE: Operation is load_word first operand R2 Immediate 4 destination register R1
+func3 : 2 func7 : 0
+
+... FETCHING ... 00810113
+FETCH: Instruction  00810113 fetched from address 0x60%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:-1%x6:3%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:225%pc:64%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00050313
+WRITEBACK: writing 6 to Register R6
+
+... ACCESSING MEMORY ... 00012503
+MEMORY: load_word operation is performed in the memory, loaded value (in op2): 4
+
+... EXECUTING ... 00412083
+First PC iS 56
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483580
+EXECUTE: Branch is not taken
+Second PC iS 60
+
+... DECODING ... 00810113
+DECODE: Operation is addi first operand R2 Immediate 8 destination register R2
+func3 : 0 func7 : 0
+
+... FETCHING ... 00650533
+FETCH: Instruction  00650533 fetched from address 0x64%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:-1%x6:6%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:226%pc:68%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00012503
+WRITEBACK: writing 4 to Register R10
+
+... ACCESSING MEMORY ... 00412083
+MEMORY: addi operation is performed in the memory, loaded value (in op2): 48
+
+... EXECUTING ... 00810113
+First PC iS 60
+EXECUTE: Alu Operation : addi  Operation Result : 2147483584
+EXECUTE: Branch is not taken
+Second PC iS 64
+
+... DECODING ... 00650533
+DECODE: Operation is add first operand R10 Second operand R6 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x68%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:-1%x6:6%x7:0%x8:0%x9:0%x10:4%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:227%pc:72%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00412083
+WRITEBACK: writing 48 to Register R1
+
+... ACCESSING MEMORY ... 00810113
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00650533
+First PC iS 64
+EXECUTE: Alu Operation : add  Operation Result : 10
+EXECUTE: Branch is not taken
+Second PC iS 68
+
+... DECODING ... 00008067
+DECODE: Operation is jalr first operand R1 Immediate 0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... 00000033
+FETCH: Instruction  00000033 fetched from address 0x72%x0:0%x1:48%x2:2147483576%x3:0%x4:0%x5:-1%x6:6%x7:0%x8:0%x9:0%x10:4%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:228%pc:76%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00810113
+WRITEBACK: writing 2147483584 to Register R2
+
+... ACCESSING MEMORY ... 00650533
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00008067
+First PC iS 68
+EXECUTE: Alu Operation : jalr  Operation Result : 72
+EXECUTE: Branch is taken
+Second PC iS 48
+
+... DECODING ... 00000033
+DECODE: Operation is add first operand R0 Second operand R0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... -1
+FETCH: Instruction  -1 fetched from address 0x76%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:-1%x6:6%x7:0%x8:0%x9:0%x10:4%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:229%pc:48%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... 00650533
+WRITEBACK: writing 10 to Register R10
+
+... ACCESSING MEMORY ... 00008067
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000033
+
+... STALL ... DECODE ... -1
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:-1%x6:6%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:230%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00008067
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000033
+
+... STALL ... EXECUTE ... -1
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:-1%x6:6%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:231%pc:56%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000033
+
+
+... STALL ... MEMORY ... -1
+... EXECUTING ... 00050313
+First PC iS 48
+EXECUTE: Alu Operation : addi  Operation Result : 10
+EXECUTE: Branch is not taken
+Second PC iS 52
+
+... DECODING ... 00012503
+DECODE: Operation is load_word first operand R2 Immediate 0 destination register R10
+func3 : 2 func7 : 0
+
+... FETCHING ... 00412083
+FETCH: Instruction  00412083 fetched from address 0x56%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:-1%x6:6%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:232%pc:60%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... -1
+
+... ACCESSING MEMORY ... 00050313
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00012503
+First PC iS 52
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483584
+EXECUTE: Branch is not taken
+Second PC iS 56
+
+... DECODING ... 00412083
+DECODE: Operation is load_word first operand R2 Immediate 4 destination register R1
+func3 : 2 func7 : 0
+
+... FETCHING ... 00810113
+FETCH: Instruction  00810113 fetched from address 0x60%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:-1%x6:6%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:233%pc:64%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00050313
+WRITEBACK: writing 10 to Register R6
+
+... ACCESSING MEMORY ... 00012503
+MEMORY: load_word operation is performed in the memory, loaded value (in op2): 5
+
+... EXECUTING ... 00412083
+First PC iS 56
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483588
+EXECUTE: Branch is not taken
+Second PC iS 60
+
+... DECODING ... 00810113
+DECODE: Operation is addi first operand R2 Immediate 8 destination register R2
+func3 : 0 func7 : 0
+
+... FETCHING ... 00650533
+FETCH: Instruction  00650533 fetched from address 0x64%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:-1%x6:10%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:234%pc:68%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00012503
+WRITEBACK: writing 5 to Register R10
+
+... ACCESSING MEMORY ... 00412083
+MEMORY: addi operation is performed in the memory, loaded value (in op2): 48
+
+... EXECUTING ... 00810113
+First PC iS 60
+EXECUTE: Alu Operation : addi  Operation Result : 2147483592
+EXECUTE: Branch is not taken
+Second PC iS 64
+
+... DECODING ... 00650533
+DECODE: Operation is add first operand R10 Second operand R6 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x68%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:-1%x6:10%x7:0%x8:0%x9:0%x10:5%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:235%pc:72%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00412083
+WRITEBACK: writing 48 to Register R1
+
+... ACCESSING MEMORY ... 00810113
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00650533
+First PC iS 64
+EXECUTE: Alu Operation : add  Operation Result : 15
+EXECUTE: Branch is not taken
+Second PC iS 68
+
+... DECODING ... 00008067
+DECODE: Operation is jalr first operand R1 Immediate 0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... 00000033
+FETCH: Instruction  00000033 fetched from address 0x72%x0:0%x1:48%x2:2147483584%x3:0%x4:0%x5:-1%x6:10%x7:0%x8:0%x9:0%x10:5%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:236%pc:76%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00810113
+WRITEBACK: writing 2147483592 to Register R2
+
+... ACCESSING MEMORY ... 00650533
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00008067
+First PC iS 68
+EXECUTE: Alu Operation : jalr  Operation Result : 72
+EXECUTE: Branch is taken
+Second PC iS 48
+
+... DECODING ... 00000033
+DECODE: Operation is add first operand R0 Second operand R0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... -1
+FETCH: Instruction  -1 fetched from address 0x76%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:-1%x6:10%x7:0%x8:0%x9:0%x10:5%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:237%pc:48%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... 00650533
+WRITEBACK: writing 15 to Register R10
+
+... ACCESSING MEMORY ... 00008067
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000033
+
+... STALL ... DECODE ... -1
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:-1%x6:10%x7:0%x8:0%x9:0%x10:15%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:238%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00008067
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000033
+
+... STALL ... EXECUTE ... -1
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:-1%x6:10%x7:0%x8:0%x9:0%x10:15%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:239%pc:56%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000033
+
+
+... STALL ... MEMORY ... -1
+... EXECUTING ... 00050313
+First PC iS 48
+EXECUTE: Alu Operation : addi  Operation Result : 15
+EXECUTE: Branch is not taken
+Second PC iS 52
+
+... DECODING ... 00012503
+DECODE: Operation is load_word first operand R2 Immediate 0 destination register R10
+func3 : 2 func7 : 0
+
+... FETCHING ... 00412083
+FETCH: Instruction  00412083 fetched from address 0x56%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:-1%x6:10%x7:0%x8:0%x9:0%x10:15%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:240%pc:60%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... -1
+
+... ACCESSING MEMORY ... 00050313
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00012503
+First PC iS 52
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483592
+EXECUTE: Branch is not taken
+Second PC iS 56
+
+... DECODING ... 00412083
+DECODE: Operation is load_word first operand R2 Immediate 4 destination register R1
+func3 : 2 func7 : 0
+
+... FETCHING ... 00810113
+FETCH: Instruction  00810113 fetched from address 0x60%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:-1%x6:10%x7:0%x8:0%x9:0%x10:15%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:241%pc:64%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00050313
+WRITEBACK: writing 15 to Register R6
+
+... ACCESSING MEMORY ... 00012503
+MEMORY: load_word operation is performed in the memory, loaded value (in op2): 6
+
+... EXECUTING ... 00412083
+First PC iS 56
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483596
+EXECUTE: Branch is not taken
+Second PC iS 60
+
+... DECODING ... 00810113
+DECODE: Operation is addi first operand R2 Immediate 8 destination register R2
+func3 : 0 func7 : 0
+
+... FETCHING ... 00650533
+FETCH: Instruction  00650533 fetched from address 0x64%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:-1%x6:15%x7:0%x8:0%x9:0%x10:15%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:242%pc:68%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00012503
+WRITEBACK: writing 6 to Register R10
+
+... ACCESSING MEMORY ... 00412083
+MEMORY: addi operation is performed in the memory, loaded value (in op2): 48
+
+... EXECUTING ... 00810113
+First PC iS 60
+EXECUTE: Alu Operation : addi  Operation Result : 2147483600
+EXECUTE: Branch is not taken
+Second PC iS 64
+
+... DECODING ... 00650533
+DECODE: Operation is add first operand R10 Second operand R6 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x68%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:-1%x6:15%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:243%pc:72%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00412083
+WRITEBACK: writing 48 to Register R1
+
+... ACCESSING MEMORY ... 00810113
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00650533
+First PC iS 64
+EXECUTE: Alu Operation : add  Operation Result : 21
+EXECUTE: Branch is not taken
+Second PC iS 68
+
+... DECODING ... 00008067
+DECODE: Operation is jalr first operand R1 Immediate 0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... 00000033
+FETCH: Instruction  00000033 fetched from address 0x72%x0:0%x1:48%x2:2147483592%x3:0%x4:0%x5:-1%x6:15%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:244%pc:76%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00810113
+WRITEBACK: writing 2147483600 to Register R2
+
+... ACCESSING MEMORY ... 00650533
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00008067
+First PC iS 68
+EXECUTE: Alu Operation : jalr  Operation Result : 72
+EXECUTE: Branch is taken
+Second PC iS 48
+
+... DECODING ... 00000033
+DECODE: Operation is add first operand R0 Second operand R0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... -1
+FETCH: Instruction  -1 fetched from address 0x76%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:-1%x6:15%x7:0%x8:0%x9:0%x10:6%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:245%pc:48%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... 00650533
+WRITEBACK: writing 21 to Register R10
+
+... ACCESSING MEMORY ... 00008067
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000033
+
+... STALL ... DECODE ... -1
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:-1%x6:15%x7:0%x8:0%x9:0%x10:21%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:246%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00008067
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000033
+
+... STALL ... EXECUTE ... -1
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:-1%x6:15%x7:0%x8:0%x9:0%x10:21%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:247%pc:56%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000033
+
+
+... STALL ... MEMORY ... -1
+... EXECUTING ... 00050313
+First PC iS 48
+EXECUTE: Alu Operation : addi  Operation Result : 21
+EXECUTE: Branch is not taken
+Second PC iS 52
+
+... DECODING ... 00012503
+DECODE: Operation is load_word first operand R2 Immediate 0 destination register R10
+func3 : 2 func7 : 0
+
+... FETCHING ... 00412083
+FETCH: Instruction  00412083 fetched from address 0x56%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:-1%x6:15%x7:0%x8:0%x9:0%x10:21%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:248%pc:60%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... -1
+
+... ACCESSING MEMORY ... 00050313
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00012503
+First PC iS 52
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483600
+EXECUTE: Branch is not taken
+Second PC iS 56
+
+... DECODING ... 00412083
+DECODE: Operation is load_word first operand R2 Immediate 4 destination register R1
+func3 : 2 func7 : 0
+
+... FETCHING ... 00810113
+FETCH: Instruction  00810113 fetched from address 0x60%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:-1%x6:15%x7:0%x8:0%x9:0%x10:21%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:249%pc:64%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00050313
+WRITEBACK: writing 21 to Register R6
+
+... ACCESSING MEMORY ... 00012503
+MEMORY: load_word operation is performed in the memory, loaded value (in op2): 7
+
+... EXECUTING ... 00412083
+First PC iS 56
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483604
+EXECUTE: Branch is not taken
+Second PC iS 60
+
+... DECODING ... 00810113
+DECODE: Operation is addi first operand R2 Immediate 8 destination register R2
+func3 : 0 func7 : 0
+
+... FETCHING ... 00650533
+FETCH: Instruction  00650533 fetched from address 0x64%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:-1%x6:21%x7:0%x8:0%x9:0%x10:21%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:250%pc:68%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00012503
+WRITEBACK: writing 7 to Register R10
+
+... ACCESSING MEMORY ... 00412083
+MEMORY: addi operation is performed in the memory, loaded value (in op2): 48
+
+... EXECUTING ... 00810113
+First PC iS 60
+EXECUTE: Alu Operation : addi  Operation Result : 2147483608
+EXECUTE: Branch is not taken
+Second PC iS 64
+
+... DECODING ... 00650533
+DECODE: Operation is add first operand R10 Second operand R6 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x68%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:-1%x6:21%x7:0%x8:0%x9:0%x10:7%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:251%pc:72%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00412083
+WRITEBACK: writing 48 to Register R1
+
+... ACCESSING MEMORY ... 00810113
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00650533
+First PC iS 64
+EXECUTE: Alu Operation : add  Operation Result : 28
+EXECUTE: Branch is not taken
+Second PC iS 68
+
+... DECODING ... 00008067
+DECODE: Operation is jalr first operand R1 Immediate 0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... 00000033
+FETCH: Instruction  00000033 fetched from address 0x72%x0:0%x1:48%x2:2147483600%x3:0%x4:0%x5:-1%x6:21%x7:0%x8:0%x9:0%x10:7%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:252%pc:76%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00810113
+WRITEBACK: writing 2147483608 to Register R2
+
+... ACCESSING MEMORY ... 00650533
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00008067
+First PC iS 68
+EXECUTE: Alu Operation : jalr  Operation Result : 72
+EXECUTE: Branch is taken
+Second PC iS 48
+
+... DECODING ... 00000033
+DECODE: Operation is add first operand R0 Second operand R0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... -1
+FETCH: Instruction  -1 fetched from address 0x76%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:-1%x6:21%x7:0%x8:0%x9:0%x10:7%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:253%pc:48%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... 00650533
+WRITEBACK: writing 28 to Register R10
+
+... ACCESSING MEMORY ... 00008067
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000033
+
+... STALL ... DECODE ... -1
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:-1%x6:21%x7:0%x8:0%x9:0%x10:28%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:254%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00008067
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000033
+
+... STALL ... EXECUTE ... -1
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:-1%x6:21%x7:0%x8:0%x9:0%x10:28%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:255%pc:56%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000033
+
+
+... STALL ... MEMORY ... -1
+... EXECUTING ... 00050313
+First PC iS 48
+EXECUTE: Alu Operation : addi  Operation Result : 28
+EXECUTE: Branch is not taken
+Second PC iS 52
+
+... DECODING ... 00012503
+DECODE: Operation is load_word first operand R2 Immediate 0 destination register R10
+func3 : 2 func7 : 0
+
+... FETCHING ... 00412083
+FETCH: Instruction  00412083 fetched from address 0x56%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:-1%x6:21%x7:0%x8:0%x9:0%x10:28%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:256%pc:60%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... -1
+
+... ACCESSING MEMORY ... 00050313
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00012503
+First PC iS 52
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483608
+EXECUTE: Branch is not taken
+Second PC iS 56
+
+... DECODING ... 00412083
+DECODE: Operation is load_word first operand R2 Immediate 4 destination register R1
+func3 : 2 func7 : 0
+
+... FETCHING ... 00810113
+FETCH: Instruction  00810113 fetched from address 0x60%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:-1%x6:21%x7:0%x8:0%x9:0%x10:28%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:257%pc:64%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00050313
+WRITEBACK: writing 28 to Register R6
+
+... ACCESSING MEMORY ... 00012503
+MEMORY: load_word operation is performed in the memory, loaded value (in op2): 8
+
+... EXECUTING ... 00412083
+First PC iS 56
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483612
+EXECUTE: Branch is not taken
+Second PC iS 60
+
+... DECODING ... 00810113
+DECODE: Operation is addi first operand R2 Immediate 8 destination register R2
+func3 : 0 func7 : 0
+
+... FETCHING ... 00650533
+FETCH: Instruction  00650533 fetched from address 0x64%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:-1%x6:28%x7:0%x8:0%x9:0%x10:28%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:258%pc:68%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00012503
+WRITEBACK: writing 8 to Register R10
+
+... ACCESSING MEMORY ... 00412083
+MEMORY: addi operation is performed in the memory, loaded value (in op2): 48
+
+... EXECUTING ... 00810113
+First PC iS 60
+EXECUTE: Alu Operation : addi  Operation Result : 2147483616
+EXECUTE: Branch is not taken
+Second PC iS 64
+
+... DECODING ... 00650533
+DECODE: Operation is add first operand R10 Second operand R6 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x68%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:-1%x6:28%x7:0%x8:0%x9:0%x10:8%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:259%pc:72%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00412083
+WRITEBACK: writing 48 to Register R1
+
+... ACCESSING MEMORY ... 00810113
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00650533
+First PC iS 64
+EXECUTE: Alu Operation : add  Operation Result : 36
+EXECUTE: Branch is not taken
+Second PC iS 68
+
+... DECODING ... 00008067
+DECODE: Operation is jalr first operand R1 Immediate 0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... 00000033
+FETCH: Instruction  00000033 fetched from address 0x72%x0:0%x1:48%x2:2147483608%x3:0%x4:0%x5:-1%x6:28%x7:0%x8:0%x9:0%x10:8%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:260%pc:76%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00810113
+WRITEBACK: writing 2147483616 to Register R2
+
+... ACCESSING MEMORY ... 00650533
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00008067
+First PC iS 68
+EXECUTE: Alu Operation : jalr  Operation Result : 72
+EXECUTE: Branch is taken
+Second PC iS 48
+
+... DECODING ... 00000033
+DECODE: Operation is add first operand R0 Second operand R0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... -1
+FETCH: Instruction  -1 fetched from address 0x76%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:-1%x6:28%x7:0%x8:0%x9:0%x10:8%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:261%pc:48%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... 00650533
+WRITEBACK: writing 36 to Register R10
+
+... ACCESSING MEMORY ... 00008067
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000033
+
+... STALL ... DECODE ... -1
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:-1%x6:28%x7:0%x8:0%x9:0%x10:36%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:262%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00008067
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000033
+
+... STALL ... EXECUTE ... -1
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:-1%x6:28%x7:0%x8:0%x9:0%x10:36%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:263%pc:56%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000033
+
+
+... STALL ... MEMORY ... -1
+... EXECUTING ... 00050313
+First PC iS 48
+EXECUTE: Alu Operation : addi  Operation Result : 36
+EXECUTE: Branch is not taken
+Second PC iS 52
+
+... DECODING ... 00012503
+DECODE: Operation is load_word first operand R2 Immediate 0 destination register R10
+func3 : 2 func7 : 0
+
+... FETCHING ... 00412083
+FETCH: Instruction  00412083 fetched from address 0x56%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:-1%x6:28%x7:0%x8:0%x9:0%x10:36%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:264%pc:60%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... -1
+
+... ACCESSING MEMORY ... 00050313
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00012503
+First PC iS 52
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483616
+EXECUTE: Branch is not taken
+Second PC iS 56
+
+... DECODING ... 00412083
+DECODE: Operation is load_word first operand R2 Immediate 4 destination register R1
+func3 : 2 func7 : 0
+
+... FETCHING ... 00810113
+FETCH: Instruction  00810113 fetched from address 0x60%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:-1%x6:28%x7:0%x8:0%x9:0%x10:36%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:265%pc:64%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00050313
+WRITEBACK: writing 36 to Register R6
+
+... ACCESSING MEMORY ... 00012503
+MEMORY: load_word operation is performed in the memory, loaded value (in op2): 9
+
+... EXECUTING ... 00412083
+First PC iS 56
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483620
+EXECUTE: Branch is not taken
+Second PC iS 60
+
+... DECODING ... 00810113
+DECODE: Operation is addi first operand R2 Immediate 8 destination register R2
+func3 : 0 func7 : 0
+
+... FETCHING ... 00650533
+FETCH: Instruction  00650533 fetched from address 0x64%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:-1%x6:36%x7:0%x8:0%x9:0%x10:36%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:266%pc:68%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00012503
+WRITEBACK: writing 9 to Register R10
+
+... ACCESSING MEMORY ... 00412083
+MEMORY: addi operation is performed in the memory, loaded value (in op2): 48
+
+... EXECUTING ... 00810113
+First PC iS 60
+EXECUTE: Alu Operation : addi  Operation Result : 2147483624
+EXECUTE: Branch is not taken
+Second PC iS 64
+
+... DECODING ... 00650533
+DECODE: Operation is add first operand R10 Second operand R6 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x68%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:-1%x6:36%x7:0%x8:0%x9:0%x10:9%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:267%pc:72%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00412083
+WRITEBACK: writing 48 to Register R1
+
+... ACCESSING MEMORY ... 00810113
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00650533
+First PC iS 64
+EXECUTE: Alu Operation : add  Operation Result : 45
+EXECUTE: Branch is not taken
+Second PC iS 68
+
+... DECODING ... 00008067
+DECODE: Operation is jalr first operand R1 Immediate 0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... 00000033
+FETCH: Instruction  00000033 fetched from address 0x72%x0:0%x1:48%x2:2147483616%x3:0%x4:0%x5:-1%x6:36%x7:0%x8:0%x9:0%x10:9%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:268%pc:76%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00810113
+WRITEBACK: writing 2147483624 to Register R2
+
+... ACCESSING MEMORY ... 00650533
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00008067
+First PC iS 68
+EXECUTE: Alu Operation : jalr  Operation Result : 72
+EXECUTE: Branch is taken
+Second PC iS 48
+
+... DECODING ... 00000033
+DECODE: Operation is add first operand R0 Second operand R0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... -1
+FETCH: Instruction  -1 fetched from address 0x76%x0:0%x1:48%x2:2147483624%x3:0%x4:0%x5:-1%x6:36%x7:0%x8:0%x9:0%x10:9%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:269%pc:48%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... 00650533
+WRITEBACK: writing 45 to Register R10
+
+... ACCESSING MEMORY ... 00008067
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000033
+
+... STALL ... DECODE ... -1
+
+... FETCHING ... 00050313
+FETCH: Instruction  00050313 fetched from address 0x48%x0:0%x1:48%x2:2147483624%x3:0%x4:0%x5:-1%x6:36%x7:0%x8:0%x9:0%x10:45%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:270%pc:52%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00008067
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000033
+
+... STALL ... EXECUTE ... -1
+
+... DECODING ... 00050313
+DECODE: Operation is addi first operand R10 Immediate 0 destination register R6
+func3 : 0 func7 : 0
+
+... FETCHING ... 00012503
+FETCH: Instruction  00012503 fetched from address 0x52%x0:0%x1:48%x2:2147483624%x3:0%x4:0%x5:-1%x6:36%x7:0%x8:0%x9:0%x10:45%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:271%pc:56%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000033
+
+
+... STALL ... MEMORY ... -1
+... EXECUTING ... 00050313
+First PC iS 48
+EXECUTE: Alu Operation : addi  Operation Result : 45
+EXECUTE: Branch is not taken
+Second PC iS 52
+
+... DECODING ... 00012503
+DECODE: Operation is load_word first operand R2 Immediate 0 destination register R10
+func3 : 2 func7 : 0
+
+... FETCHING ... 00412083
+FETCH: Instruction  00412083 fetched from address 0x56%x0:0%x1:48%x2:2147483624%x3:0%x4:0%x5:-1%x6:36%x7:0%x8:0%x9:0%x10:45%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:272%pc:60%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... -1
+
+... ACCESSING MEMORY ... 00050313
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00012503
+First PC iS 52
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483624
+EXECUTE: Branch is not taken
+Second PC iS 56
+
+... DECODING ... 00412083
+DECODE: Operation is load_word first operand R2 Immediate 4 destination register R1
+func3 : 2 func7 : 0
+
+... FETCHING ... 00810113
+FETCH: Instruction  00810113 fetched from address 0x60%x0:0%x1:48%x2:2147483624%x3:0%x4:0%x5:-1%x6:36%x7:0%x8:0%x9:0%x10:45%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:273%pc:64%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00050313
+WRITEBACK: writing 45 to Register R6
+
+... ACCESSING MEMORY ... 00012503
+MEMORY: load_word operation is performed in the memory, loaded value (in op2): 10
+
+... EXECUTING ... 00412083
+First PC iS 56
+EXECUTE: Alu Operation : load_word  Operation Result : 2147483628
+EXECUTE: Branch is not taken
+Second PC iS 60
+
+... DECODING ... 00810113
+DECODE: Operation is addi first operand R2 Immediate 8 destination register R2
+func3 : 0 func7 : 0
+
+... FETCHING ... 00650533
+FETCH: Instruction  00650533 fetched from address 0x64%x0:0%x1:48%x2:2147483624%x3:0%x4:0%x5:-1%x6:45%x7:0%x8:0%x9:0%x10:45%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:274%pc:68%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00012503
+WRITEBACK: writing 10 to Register R10
+
+... ACCESSING MEMORY ... 00412083
+MEMORY: addi operation is performed in the memory, loaded value (in op2): 8
+
+... EXECUTING ... 00810113
+First PC iS 60
+EXECUTE: Alu Operation : addi  Operation Result : 2147483632
+EXECUTE: Branch is not taken
+Second PC iS 64
+
+... DECODING ... 00650533
+DECODE: Operation is add first operand R10 Second operand R6 destination register R10
+func3 : 0 func7 : 0
+
+... FETCHING ... 00008067
+FETCH: Instruction  00008067 fetched from address 0x68%x0:0%x1:48%x2:2147483624%x3:0%x4:0%x5:-1%x6:45%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:275%pc:72%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00412083
+WRITEBACK: writing 8 to Register R1
+
+... ACCESSING MEMORY ... 00810113
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00650533
+First PC iS 64
+EXECUTE: Alu Operation : add  Operation Result : 55
+EXECUTE: Branch is not taken
+Second PC iS 68
+
+... DECODING ... 00008067
+DECODE: Operation is jalr first operand R1 Immediate 0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... 00000033
+FETCH: Instruction  00000033 fetched from address 0x72%x0:0%x1:8%x2:2147483624%x3:0%x4:0%x5:-1%x6:45%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:276%pc:76%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00810113
+WRITEBACK: writing 2147483632 to Register R2
+
+... ACCESSING MEMORY ... 00650533
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... 00008067
+First PC iS 68
+EXECUTE: Alu Operation : jalr  Operation Result : 72
+EXECUTE: Branch is taken
+Second PC iS 8
+
+... DECODING ... 00000033
+DECODE: Operation is add first operand R0 Second operand R0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... -1
+FETCH: Instruction  -1 fetched from address 0x76%x0:0%x1:8%x2:2147483632%x3:0%x4:0%x5:-1%x6:45%x7:0%x8:0%x9:0%x10:10%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:277%pc:8%RAW_dep:0%JAL_dep:1%CNTR_dep:1%
+$
+
+... WRITING back ... 00650533
+WRITEBACK: writing 55 to Register R10
+
+... ACCESSING MEMORY ... 00008067
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... 00000033
+
+... STALL ... DECODE ... -1
+
+... FETCHING ... 04000063
+FETCH: Instruction  04000063 fetched from address 0x8%x0:0%x1:8%x2:2147483632%x3:0%x4:0%x5:-1%x6:45%x7:0%x8:0%x9:0%x10:55%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:278%pc:12%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00008067
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... 00000033
+
+... STALL ... EXECUTE ... -1
+
+... DECODING ... 04000063
+DECODE: Operation is beq first operand R0 Second operand R0 Immediate 64
+func3 : 0 func7 : 2
+
+... FETCHING ... ff810113
+FETCH: Instruction  ff810113 fetched from address 0x12%x0:0%x1:8%x2:2147483632%x3:0%x4:0%x5:-1%x6:45%x7:0%x8:0%x9:0%x10:55%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:279%pc:16%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00000033
+
+
+... STALL ... MEMORY ... -1
+... EXECUTING ... 04000063
+First PC iS 8
+EXECUTE: Alu Operation : beq  Operation Result : 72
+EXECUTE: Branch is taken
+Second PC iS 72
+
+... DECODING ... ff810113
+DECODE: Operation is addi first operand R2 Immediate -8 destination register R2
+func3 : 0 func7 : 127
+
+... FETCHING ... 00112223
+FETCH: Instruction  00112223 fetched from address 0x16%x0:0%x1:8%x2:2147483632%x3:0%x4:0%x5:-1%x6:45%x7:0%x8:0%x9:0%x10:55%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:280%pc:72%RAW_dep:0%JAL_dep:0%CNTR_dep:1%
+$
+... STALL ... WRITE back ... -1
+
+... ACCESSING MEMORY ... 04000063
+MEMORY: No memory operation to perform.
+
+
+... STALL ... EXECUTE ... ff810113
+
+... STALL ... DECODE ... 00112223
+
+... FETCHING ... 00000033
+FETCH: Instruction  00000033 fetched from address 0x72%x0:0%x1:8%x2:2147483632%x3:0%x4:0%x5:-1%x6:45%x7:0%x8:0%x9:0%x10:55%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:281%pc:76%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 04000063
+WRITEBACK: No write back! 
+
+
+... STALL ... MEMORY ... ff810113
+
+... STALL ... EXECUTE ... 00112223
+
+... DECODING ... 00000033
+DECODE: Operation is add first operand R0 Second operand R0 destination register R0
+func3 : 0 func7 : 0
+
+... FETCHING ... -1
+FETCH: Instruction  -1 fetched from address 0x76%x0:0%x1:8%x2:2147483632%x3:0%x4:0%x5:-1%x6:45%x7:0%x8:0%x9:0%x10:55%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:282%pc:80%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... ff810113
+
+
+... STALL ... MEMORY ... 00112223
+... EXECUTING ... 00000033
+First PC iS 72
+EXECUTE: Alu Operation : add  Operation Result : 0
+EXECUTE: Branch is not taken
+Second PC iS 76
+
+... DECODING ... -1
+func3 : 0 func7 : 0
+
+... FETCHING ... -1
+FETCH: Instruction  -1 fetched from address 0x80%x0:0%x1:8%x2:2147483632%x3:0%x4:0%x5:-1%x6:45%x7:0%x8:0%x9:0%x10:55%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:283%pc:84%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+... STALL ... WRITE back ... 00112223
+
+... ACCESSING MEMORY ... 00000033
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... -1
+First PC iS 76
+EXECUTE: Alu Operation : add  Operation Result : 0
+EXECUTE: Branch is not taken
+Second PC iS 80
+
+... DECODING ... -1
+func3 : 0 func7 : 0
+
+... FETCHING ... -1
+FETCH: Instruction  -1 fetched from address 0x84%x0:0%x1:8%x2:2147483632%x3:0%x4:0%x5:-1%x6:45%x7:0%x8:0%x9:0%x10:55%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:284%pc:88%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... 00000033
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... -1
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... -1
+First PC iS 80
+EXECUTE: Alu Operation : add  Operation Result : 0
+EXECUTE: Branch is not taken
+Second PC iS 84
+
+... DECODING ... -1
+func3 : 0 func7 : 0
+%x0:0%x1:8%x2:2147483632%x3:0%x4:0%x5:-1%x6:45%x7:0%x8:0%x9:0%x10:55%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:285%pc:92%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... -1
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... -1
+MEMORY: No memory operation to perform.
+
+... EXECUTING ... -1
+First PC iS 84
+EXECUTE: Alu Operation : add  Operation Result : 0
+EXECUTE: Branch is not taken
+Second PC iS 88
+%x0:0%x1:8%x2:2147483632%x3:0%x4:0%x5:-1%x6:45%x7:0%x8:0%x9:0%x10:55%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:286%pc:96%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... -1
+WRITEBACK: No write back! 
+
+... ACCESSING MEMORY ... -1
+MEMORY: No memory operation to perform.
+
+%x0:0%x1:8%x2:2147483632%x3:0%x4:0%x5:-1%x6:45%x7:0%x8:0%x9:0%x10:55%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:287%pc:100%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+
+... WRITING back ... -1
+WRITEBACK: No write back! 
+
+%x0:0%x1:8%x2:2147483632%x3:0%x4:0%x5:-1%x6:45%x7:0%x8:0%x9:0%x10:55%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:288%pc:104%RAW_dep:0%JAL_dep:0%CNTR_dep:0%
+$
+%x0:0%x1:8%x2:2147483632%x3:0%x4:0%x5:-1%x6:45%x7:0%x8:0%x9:0%x10:55%x11:0%x12:0%x13:0%x14:0%x15:0%x16:0%x17:0%x18:0%x19:0%x20:0%x21:0%x22:0%x23:0%x24:0%x25:0%x26:0%x27:0%x28:0%x29:0%x30:0%x31:0%clock:288%%Total number of Cycles:288%Total instruction executed:147%CPI:1.95918%Number of Data Transfer (load/store):44%Number of ALU Instruction:71%Number of Control Instructions:12%Number of stalls in pipeline:112%Number of data hazards:22%Number of control hazards:34%Number of branch misprediction:34%Number of stalls due to data hazards:44%Number of stalls due to control hazards:68$
