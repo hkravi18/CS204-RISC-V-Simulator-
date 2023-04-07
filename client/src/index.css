@@ -1,0 +1,142 @@
+body{
+  background-color: #93BFCF;
+  font-family: Montserrat, sans-serif;
+}
+h1 {
+  margin: auto;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  background-color: #6096B4;
+}
+
+button[type=submit] {
+  margin-left: 15.5rem;
+  margin-top: 15px;
+}
+
+button[type=reset] {
+  /* margin-left: 23.5rem; */
+  display: block;
+  margin-top: 15px;
+}
+
+input[type=reset] {
+  margin-left: 90px;
+  border-radius: 2px;
+  cursor: pointer;
+  float: bottom;
+}
+
+textarea {
+  margin-top: 50px;
+  margin-left: 12px;
+  width: 75%;
+  height: 40rem;
+  padding: 20px 20px;
+  border: 4px solid #080808;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.output-textarea {
+  display: inline;
+  align-self: center;
+  margin-bottom: 50px;
+  height: 910px;
+  margin-top: 0px;
+  width: 800px;
+  margin-left: 20px;
+}
+
+.register-file {
+  margin-left: 300px;
+}
+
+.Inc_button {
+  margin: 20px;
+  width: 100px;
+  margin-left: 600px;
+}
+
+.Dec_button {
+  margin: 20px;
+  width: 100px;
+}
+
+.clk {
+  text-align: center;
+  color: #19376D;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+
+/* Create a two-column layout */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+.reset-btn {
+  display: block;
+  margin-left:248px;
+}
+
+.scs-btn {
+  display: block;
+  margin-left: 248px;
+}
+
+.p-btn {
+  display: block;
+  margin-left: 248px;
+}
+
+.div2 {
+  margin-top: 100px;
+}
+
+button {
+  width : 200px;
+}
+
+
+
+
+
+
+
+
+
+
+/* df and btb */
+#df {
+  margin-top:35px;
+}
+
+.df-label {
+  margin-top: 30px;
+}
+
+#btb {
+  margin-top:160px;
+}
+
+.btb-label {
+  margin-top: 155px;
+  display:block;
+}
